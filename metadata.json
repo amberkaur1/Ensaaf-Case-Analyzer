@@ -1,0 +1,6 @@
+{
+  "name": "Evidence-to-Action: Human Rights Provenance & Discovery Engine",
+  "description": "Investigative platform for human rights advocates, legal researchers, and journalists investigating enforced disappearances and extrajudicial executions with DAG entity graphs, cross-case pattern synthesis, citation-linked provenance, and AI evidence assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
