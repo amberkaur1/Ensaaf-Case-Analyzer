@@ -442,7 +442,7 @@ export async function extractCaseFromRawFiles(uploadedFiles: RawUploadedFile[]):
     try {
       const ai = new GoogleGenAI({ apiKey });
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3.8-flash',
         contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
         config: {
           systemInstruction: SYSTEM_INSTRUCTION,
@@ -456,13 +456,16 @@ export async function extractCaseFromRawFiles(uploadedFiles: RawUploadedFile[]):
       if (responseText) {
         parsedCase = JSON.parse(responseText) as CaseData;
       }
-    } catch (clientErr) {
-      console.warn('Client-side Gemini extraction attempt threw, falling back to server route:', clientErr);
+    } catch (clientErr: any) {
+      console.warn('Gemini extraction attempt threw:', clientErr?.message || clientErr);
+      if (typeof window === 'undefined') {
+        throw new Error(`Gemini extraction failed on server: ${clientErr?.message || 'Unknown Gemini error'}`);
+      }
     }
   }
 
-  // 2. If client-side direct call was not possible or failed, call server extraction endpoint
-  if (!parsedCase) {
+  // 2. If client-side (in browser) direct call was not possible or failed, call server extraction endpoint
+  if (!parsedCase && typeof window !== 'undefined') {
     const res = await fetch('/api/extract-case', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
