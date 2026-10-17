@@ -21,6 +21,7 @@ import {
 
 interface LandingTriageViewProps {
   cases: CaseData[];
+  tasks?: InvestigativeTask[];
   onSelectCase: (caseId: string) => void;
   onSelectHotspot: (hotspot: CrimeHotspot) => void;
   onSelectTask: (task: InvestigativeTask) => void;
@@ -28,10 +29,12 @@ interface LandingTriageViewProps {
 
 export const LandingTriageView: React.FC<LandingTriageViewProps> = ({
   cases,
+  tasks,
   onSelectCase,
   onSelectHotspot,
   onSelectTask,
 }) => {
+  const currentTasks = tasks || INVESTIGATIVE_TASKS;
   const [districtFilter, setDistrictFilter] = useState('All Districts');
   const [typologyFilter, setTypologyFilter] = useState('All Crime Types');
   const [hoveredHotspot, setHoveredHotspot] = useState<CrimeHotspot | null>(null);
@@ -58,7 +61,7 @@ export const LandingTriageView: React.FC<LandingTriageViewProps> = ({
                 </span>
                 <span className="text-xs text-slate-400">•</span>
                 <span className="text-xs text-slate-500 font-medium">
-                  {INVESTIGATIVE_TASKS.length} Verification Tasks Pending
+                  {currentTasks.length} Verification Tasks Pending
                 </span>
               </div>
               <h2 className="text-base font-bold text-slate-900 tracking-tight mt-0.5">
@@ -72,7 +75,7 @@ export const LandingTriageView: React.FC<LandingTriageViewProps> = ({
 
           {/* Tasks List Scroll Area */}
           <div className="p-5 overflow-y-auto flex-1 divide-y divide-slate-100 space-y-4">
-            {INVESTIGATIVE_TASKS.map((task) => (
+            {currentTasks.map((task) => (
               <div
                 key={task.id}
                 onClick={() => onSelectTask(task)}

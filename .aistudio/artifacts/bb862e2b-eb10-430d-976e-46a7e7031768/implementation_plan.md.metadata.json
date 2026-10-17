@@ -1,0 +1,6 @@
+{
+  "summary": "Revised implementation plan that incorporates renaming the 'Add Dossier' button to 'Upload Case' across the navigation bar, alongside the focused scope items: removing placeholder victim photos, adding manual photo upload with browser persistence, prefixing synthetic case titles with [synthetic-data], and calibrating the Assigned Case Review Queue to the 3 active cases.",
+  "updatedAt": "2026-10-16T23:51:17.326563497Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

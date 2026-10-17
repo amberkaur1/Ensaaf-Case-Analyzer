@@ -56,7 +56,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         )}
       </div>
 
-      {/* Right: Conditional Case Selector (only when inside a case), Punjabi Button, Add Dossier, and Researcher Profile */}
+      {/* Right: Conditional Case Selector (only when inside a case), Punjabi Button, Upload Case, and Researcher Profile */}
       <div className="flex items-center gap-2.5">
         {/* Case Selector Dropdown - ONLY shown when inside a case view */}
         {activeScreen !== 'landing' && (
@@ -112,13 +112,14 @@ export const Navbar: React.FC<NavbarProps> = ({
           ਪੰਜਾਬੀ
         </button>
 
-        {/* Add / Upload Dossier Button */}
+        {/* Upload Case Button */}
         <button
           onClick={onOpenUploadModal}
           className="px-3 py-1.5 bg-[#006B7D] hover:bg-[#005566] text-white font-bold rounded-md text-xs flex items-center gap-1.5 transition-colors shadow-xs"
+          title="Upload Case Documents, REDCap Dump, or Field Transcripts"
         >
           <Upload className="w-3.5 h-3.5" />
-          <span className="hidden sm:inline">Add Dossier</span>
+          <span className="hidden sm:inline">Upload Case</span>
         </button>
 
         {/* Researcher / Lawyer Profile Icon */}

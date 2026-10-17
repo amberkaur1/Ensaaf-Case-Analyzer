@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CaseData, CaseFact, CitationRef, EvidenceSource } from '../types/evidence';
 import {
   CheckCircle2,
   XCircle,
   AlertCircle,
-  Twitter,
-  Facebook,
-  Share2,
+  Upload,
+  Image as ImageIcon,
+  Trash2,
   ChevronDown,
   ChevronUp,
   Check,
@@ -30,6 +30,55 @@ export const CaseFactsTextView: React.FC<CaseFactsTextViewProps> = ({
   isPunjabiActive = false,
 }) => {
   const [expandedGurmukhi, setExpandedGurmukhi] = useState<Record<string, boolean>>({});
+  const [persistedPhoto, setPersistedPhoto] = useState<string | null>(() => {
+    try {
+      return localStorage.getItem(`ensaaf_victim_photo_${activeCase.id}`);
+    } catch {
+      return null;
+    }
+  });
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(`ensaaf_victim_photo_${activeCase.id}`);
+      setPersistedPhoto(saved);
+    } catch {
+      setPersistedPhoto(null);
+    }
+  }, [activeCase.id]);
+
+  const handlePhotoUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      if (file.size > 5 * 1024 * 1024) {
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = (uploadEvent) => {
+        const result = uploadEvent.target?.result as string;
+        if (result) {
+          try {
+            localStorage.setItem(`ensaaf_victim_photo_${activeCase.id}`, result);
+          } catch {
+            // ignore storage quota error
+          }
+          setPersistedPhoto(result);
+        }
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleRemovePhoto = () => {
+    try {
+      localStorage.removeItem(`ensaaf_victim_photo_${activeCase.id}`);
+    } catch {
+      // ignore
+    }
+    setPersistedPhoto(null);
+  };
+
+  const displayPhoto = persistedPhoto || activeCase.primaryVictimPhotoUrl || null;
 
   const toggleGurmukhi = (factId: string) => {
     setExpandedGurmukhi((prev) => ({
@@ -125,39 +174,67 @@ export const CaseFactsTextView: React.FC<CaseFactsTextViewProps> = ({
           )}
         </div>
 
-        {/* Right: Authentic Ensaaf Photo Card with Cream Matting */}
+        {/* Right: Ensaaf Photo Card / Neutral Slate Placeholder with Manual Upload */}
         <div className="flex flex-col items-center shrink-0 w-64">
           <div className="p-3 bg-[#f5f2eb] border border-[#e4ded0] rounded shadow-md w-full max-w-[240px]">
-            <div className="aspect-4/5 bg-slate-200 overflow-hidden rounded-xs border border-slate-300 relative flex items-center justify-center">
-              {activeCase.primaryVictimPhotoUrl ? (
-                <img
-                  src={activeCase.primaryVictimPhotoUrl}
-                  alt={activeCase.primaryVictimName}
-                  className="w-full h-full object-cover filter grayscale contrast-125"
-                />
-              ) : (
-                <div className="p-4 text-center text-xs text-slate-500">
-                  Historic portrait on file with CCDP Archive
+            {displayPhoto ? (
+              <div>
+                <div className="aspect-4/5 bg-slate-200 overflow-hidden rounded-xs border border-slate-300 relative flex items-center justify-center">
+                  <img
+                    src={displayPhoto}
+                    alt={activeCase.primaryVictimName}
+                    className="w-full h-full object-cover filter grayscale contrast-125"
+                  />
                 </div>
-              )}
-            </div>
-            <div className="text-[10px] text-center text-slate-500 mt-2 font-mono">
-              Ensaaf Archive Photo Mount
-            </div>
-          </div>
+                <div className="text-[10px] text-center text-slate-500 mt-2 font-mono">
+                  Ensaaf Archive Photo Mount
+                </div>
+                <div className="flex items-center justify-center gap-2 mt-2 pt-2 border-t border-[#e4ded0]">
+                  <label className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#006B7D] hover:text-teal-800 cursor-pointer transition-colors">
+                    <Upload className="w-3 h-3" />
+                    <span>Change Photo</span>
+                    <input
+                      type="file"
+                      accept="image/png,image/jpeg,image/webp"
+                      className="hidden"
+                      onChange={handlePhotoUpload}
+                    />
+                  </label>
+                  <span className="text-slate-300">•</span>
+                  <button
+                    onClick={handleRemovePhoto}
+                    className="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-600 hover:text-rose-800 transition-colors cursor-pointer"
+                  >
+                    <Trash2 className="w-3 h-3" />
+                    <span>Remove</span>
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="aspect-4/5 bg-slate-100 border border-slate-300 rounded flex flex-col items-center justify-center p-4 text-center">
+                  <div className="w-12 h-12 rounded-full bg-slate-200/90 border border-slate-300 flex items-center justify-center text-slate-400 mb-2.5">
+                    <ImageIcon className="w-6 h-6" />
+                  </div>
+                  <span className="text-xs font-bold text-slate-700">No photo provided</span>
+                  <span className="text-[10px] text-slate-400 mt-0.5">Archival portrait pending</span>
 
-          {/* Social Share Bar */}
-          <div className="flex items-center gap-2 mt-3 text-xs text-slate-500">
-            <span>Share profile:</span>
-            <button className="text-slate-400 hover:text-sky-500 transition-colors">
-              <Twitter className="w-4 h-4" />
-            </button>
-            <button className="text-slate-400 hover:text-blue-600 transition-colors">
-              <Facebook className="w-4 h-4" />
-            </button>
-            <button className="text-slate-400 hover:text-emerald-600 transition-colors">
-              <Share2 className="w-4 h-4" />
-            </button>
+                  <label className="mt-3.5 inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#006B7D] hover:bg-teal-800 text-white text-xs font-semibold rounded shadow-xs cursor-pointer transition-colors">
+                    <Upload className="w-3.5 h-3.5" />
+                    <span>Upload Photo</span>
+                    <input
+                      type="file"
+                      accept="image/png,image/jpeg,image/webp"
+                      className="hidden"
+                      onChange={handlePhotoUpload}
+                    />
+                  </label>
+                </div>
+                <div className="text-[10px] text-center text-slate-500 mt-2 font-mono">
+                  Ensaaf Archive Photo Mount
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -201,69 +278,26 @@ export const CaseFactsTextView: React.FC<CaseFactsTextViewProps> = ({
 
       {/* 3. Simplified Editorial Case Narrative with Incident Subheadings & Inline Hyperlinks */}
       <div className="space-y-8 pt-6 border-t border-slate-200">
-        {/* Verification Progress Bar Header */}
-        <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
-          {(() => {
-            const allFacts = activeCase.phases.flatMap((p) => p.facts);
-            const verifiedCount = allFacts.filter(
-              (f) => f.verifiedStatus === 'verified' || f.verifiedStatus === 'corrected'
-            ).length;
-            const totalCount = allFacts.length;
-            const percent = totalCount > 0 ? Math.round((verifiedCount / totalCount) * 100) : 0;
-
-            return (
-              <>
-                <div className="flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-2">
-                    <span className="font-bold text-slate-900 font-sans">
-                      Researcher Verification Progress:
-                    </span>
-                    <span className="font-mono text-[#006B7D] font-bold">
-                      {verifiedCount} of {totalCount} assertions verified ({percent}%)
-                    </span>
-                  </div>
-                  <span
-                    className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold ${
-                      percent === 100
-                        ? 'bg-emerald-100 text-emerald-800 border border-emerald-300'
-                        : 'bg-amber-100 text-amber-900 border border-amber-300'
-                    }`}
-                  >
-                    {percent === 100 ? 'Consensus Corroborated' : 'Audit In-Progress'}
-                  </span>
-                </div>
-
-                <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
-                  <div
-                    className="bg-[#006B7D] h-full transition-all duration-300 rounded-full"
-                    style={{ width: `${percent}%` }}
-                  />
-                </div>
-              </>
-            );
-          })()}
-
-          <p className="text-[11px] text-slate-500 font-sans pt-0.5">
-            Click any highlighted citation to inspect the raw document, or click <strong>Accept Fact</strong> to corroborate assertions into the judicial record.
+        <div>
+          <h3 className="text-lg font-black text-slate-900 tracking-tight font-sans">
+            Case Narrative & Verified Evidence Summary
+          </h3>
+          <p className="text-xs text-slate-500 mt-1 font-sans">
+            Continuous investigative writeup synthesized from field depositions and judicial findings. Click any highlighted citation to inspect the raw document.
           </p>
         </div>
 
         {/* Flowing Narrative Sections with Subheadings */}
         <div className="space-y-8">
-          {activeCase.phases.map((phase, phaseIdx) => {
-            const phaseVerified = phase.facts.filter(
-              (f) => f.verifiedStatus === 'verified' || f.verifiedStatus === 'corrected'
-            ).length;
-
-            return (
-              <div key={phase.id} className="space-y-4">
-                {/* Incident Subheading */}
-                <h4 className="text-sm font-bold text-[#006B7D] font-sans pb-1.5 border-b border-teal-100 flex items-center justify-between">
-                  <span>{`0${phaseIdx + 1}. ${phase.name.replace(/Phase \d+:\s*/, '')}`}</span>
-                  <span className="text-[11px] font-normal text-slate-400 font-mono">
-                    {phaseVerified} / {phase.facts.length} verified
-                  </span>
-                </h4>
+          {activeCase.phases.map((phase, phaseIdx) => (
+            <div key={phase.id} className="space-y-4">
+              {/* Incident Subheading */}
+              <h4 className="text-sm font-bold text-[#006B7D] font-sans pb-1.5 border-b border-teal-100 flex items-center justify-between">
+                <span>{`0${phaseIdx + 1}. ${phase.name.replace(/Phase \d+:\s*/, '')}`}</span>
+                <span className="text-[11px] font-normal text-slate-400 font-mono">
+                  {phase.facts.length} verified statements
+                </span>
+              </h4>
 
               {/* Editorial Paragraphs with Inline Hyperlinks & Simple Actions */}
               <div className="space-y-5">
@@ -380,8 +414,7 @@ export const CaseFactsTextView: React.FC<CaseFactsTextViewProps> = ({
                 })}
               </div>
             </div>
-          );
-        })}
+          ))}
         </div>
       </div>
     </div>

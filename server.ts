@@ -303,6 +303,23 @@ ROLE & OPERATIONAL GUIDELINES:
     }
   });
 
+  // API endpoint for strict LLM case extraction from raw files
+  app.post('/api/extract-case', async (req: Request, res: Response) => {
+    try {
+      const { uploadedFiles } = req.body;
+      if (!uploadedFiles || !Array.isArray(uploadedFiles) || uploadedFiles.length === 0) {
+        return res.status(400).json({ error: 'uploadedFiles array is required' });
+      }
+
+      const { extractCaseFromRawFiles } = await import('./src/services/caseExtractor');
+      const extractedCase = await extractCaseFromRawFiles(uploadedFiles);
+      return res.json({ case: extractedCase });
+    } catch (error: any) {
+      console.error('Case extraction error:', error);
+      res.status(500).json({ error: error?.message || 'Extraction failed' });
+    }
+  });
+
   // API endpoint for generating AI legal, advocacy, or media action drafts
   app.post('/api/draft-action', async (req: Request, res: Response) => {
     try {

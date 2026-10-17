@@ -3,52 +3,24 @@ import { InvestigativeTask, CrimeHotspot } from '../types/evidence';
 export const INVESTIGATIVE_TASKS: InvestigativeTask[] = [
   {
     id: 'task-1',
-    title: 'Audit Unrecorded Custody & Daily Diary Omission in Batala CIA',
+    title: 'Case 1: Baba Hardit Singh Disappearance',
     category: 'unrecorded_custody',
     caseId: 'case-kotli-harchand',
     caseTitle: 'The Kotli Harchand Cluster (1991–1992)',
-    victimName: 'Baba Hardit Singh & Baba Sohan Singh',
+    victimName: 'Baba Hardit Singh (5121) & Baba Sohan Singh (5120)',
     priority: 'urgent',
-    description: 'Verify deponent statement confirming victims were detained from March 6 to July 2, 1992 without statutory Roznamcha entry or judicial magistrate production.',
-    assignedTo: 'Legal Verification Cell',
+    description: 'Verify entity resolution between Inspector Dilbagh Singh (SHO CIA Batala, 8 yrs RI) and ASI Dilbagh Singh (3 yrs RI), and confirm 3-4 months of unrecorded detention at Batala CIA Staff and 25 days at Dhariwal Chowki.',
+    assignedTo: 'Entity Resolution & Legal Cell',
     duePeriod: 'Urgent Review',
     status: 'pending_review',
-    evidenceBadges: ['[5121-Source 2: Para 1]', '[CCDP/01147: Details of Occurrence]']
+    evidenceBadges: ['[5121-Source 2: Para 1]', '[5121-Source 8: National Courier 2021]']
   },
   {
     id: 'task-2',
-    title: 'Cross-Examine Bhattian Bridge FIR 43/92 Ballistic Discrepancy',
-    category: 'ballistics_discrepancy',
-    caseId: 'case-kotli-harchand',
-    caseTitle: 'The Kotli Harchand Cluster (1991–1992)',
-    victimName: 'Baba Hardit Singh, Baba Sohan Singh, Mohinder Singh',
-    priority: 'high',
-    description: 'Compare Inspector Dilbagh Singh’s staged encounter claim (crossfire ambush) against CBI special court finding establishing planted weapons and point-blank trajectories.',
-    assignedTo: 'Forensic Ballistics Analyst',
-    duePeriod: 'Priority Review',
-    status: 'in_progress',
-    evidenceBadges: ['[5121-Source 1: FIR 43/92]', '[CBI Special Court Mohali 2021]']
-  },
-  {
-    id: 'task-3',
-    title: 'Track ₹45,000 Extortion Payment Conduit via Mahant Prem Singh',
-    category: 'extortion_audit',
-    caseId: 'case-kotli-harchand',
-    caseTitle: 'The Kotli Harchand Cluster (1991–1992)',
-    victimName: 'Jaswant Kaur (Deponent / Spouse)',
-    priority: 'urgent',
-    description: 'Audit sworn deposition confirming land and family gold jewelry sale to satisfy ransom demand initiated by SSP Grewal and conveyed through local dera tout.',
-    assignedTo: 'Financial Provenance Unit',
-    duePeriod: 'Urgent Review',
-    status: 'pending_review',
-    evidenceBadges: ['[5121-Source 2: Para 2]']
-  },
-  {
-    id: 'task-4',
-    title: 'Reconcile Durgiana Mandir Secret Cremation Log (Receipt 441)',
+    title: 'Case 2: [synthetic-data] Majitha Road Enforced Disappearances (1992)',
     category: 'secret_cremation',
     caseId: 'case-majitha-road',
-    caseTitle: 'Majitha Road Enforced Disappearances (1992)',
+    caseTitle: '[synthetic-data] Majitha Road Enforced Disappearances (1992)',
     victimName: 'Balkar Singh & Gurmej Singh',
     priority: 'high',
     description: 'Cross-reference police claim of "escape from handcuffs" with municipal firewood supply vouchers listing bodies deposited by Amritsar Rural Special Staff as Lawaris.',
@@ -58,11 +30,11 @@ export const INVESTIGATIVE_TASKS: InvestigativeTask[] = [
     evidenceBadges: ['[Cremation Registry Durgiana: Receipt 441]', '[NHRC Mass Cremations Report 2004]']
   },
   {
-    id: 'task-5',
-    title: 'Verify Harike Pattan Point-Blank Wound Trajectories',
+    id: 'task-3',
+    title: 'Case 3: [synthetic-data] Tarn Taran Illegal Custodial Remand Cluster (1991)',
     category: 'ballistics_discrepancy',
     caseId: 'case-tarn-taran',
-    caseTitle: 'Tarn Taran Illegal Custodial Remand Cluster (1991)',
+    caseTitle: '[synthetic-data] Tarn Taran Illegal Custodial Remand Cluster (1991)',
     victimName: 'Pritam Singh & Jagtar Singh',
     priority: 'medium',
     description: 'Audit forensic evidence demonstrating victims were immobilized and shot at close range after 46 days of unrecorded remand at PS Sadar Tarn Taran.',
@@ -80,23 +52,23 @@ export const CRIME_HOTSPOTS: CrimeHotspot[] = [
     district: 'Gurdaspur',
     coordinates: { x: 380, y: 190 },
     incidentCount: 842,
-    primaryTypology: 'Unrecorded CIA Interrogation & Extortion Touts',
-    keyFacilities: ['CIA Staff Batala', 'Dhariwal Police Chowki', 'Kotli Harchand Canal Axis'],
+    primaryTypology: 'Illegal CIA Detention, Family Hostage-Taking & Extortion Touts',
+    keyFacilities: ['CIA Staff Batala', 'Dhariwal Police Chowki', 'Nangal Jhanda Canal Bridge'],
     associatedCaseIds: ['case-kotli-harchand'],
-    summary: 'Central node of enforced disappearances in the Majha belt. Over 800 individuals documented as held in unrecorded detention without Daily Diary entries, subjected to roller torture, and extorted through local religious touts.',
-    legalExposure: 'Inspector Dilbagh Singh and 4 officers convicted to Life Imprisonment by Special CBI Court Mohali (2021).'
+    summary: 'Central hub where Batala CIA Staff detained entire extended families (such as Baba Sohan Singh, Mohinder Singh, and Tarlochan Singh) as hostages to force religious leaders like Baba Hardit Singh to surrender and pay extortion via intermediaries.',
+    legalExposure: 'Special CBI Judge Anil Kumar Sood convicted 6 Punjab Police personnel (up to 8 years RI) on Feb 23, 2021.'
   },
   {
     id: 'hotspot-sri-hargobindpur',
-    regionName: 'Bhattian Bridge & Beas Embankment',
+    regionName: 'Bhattian Bridge (Sri Hargobindpur River)',
     district: 'Gurdaspur / Batala Border',
     coordinates: { x: 420, y: 220 },
     incidentCount: 318,
-    primaryTypology: 'Waterway Staged Encounters (Fake Ambush Claims)',
-    keyFacilities: ['Bhattian Bridge', 'Beas Canal Syphon', 'PS Sri Hargobindpur'],
+    primaryTypology: 'Midnight Bridge Executions & Staged Custodial Escapes',
+    keyFacilities: ['Bhattian Bridge', 'Sri Hargobindpur River', 'Dhariwal Police Station'],
     associatedCaseIds: ['case-kotli-harchand'],
-    summary: 'Isolated canal bridge crossing repeatedly utilized by Batala police squads between 1:00 AM and 4:00 AM to simulate terrorist ambushes. Victims transferred from holding chowkis were gunned down and claimed as killed in crossfire.',
-    legalExposure: 'FIR No. 43/92 proved completely fabricated by forensic investigation and CBI testimony.'
+    summary: 'On the night of July 2, 1992—one day before IGP Harbans Singh Pannu promised their release—police took Baba Hardit Singh and Baba Sohan Singh from Dhariwal Chowki to Bhattian Bridge, walked them 10-15 meters ahead of the vehicle, and executed them.',
+    legalExposure: 'CBI investigation (taken over in 1996) proved police claims of "escape from custody" and "encounter" were fabricated.'
   },
   {
     id: 'hotspot-majitha',
@@ -124,15 +96,15 @@ export const CRIME_HOTSPOTS: CrimeHotspot[] = [
   },
   {
     id: 'hotspot-abohar',
-    regionName: 'Abohar-Rajasthan Feeder Border',
-    district: 'Ferozepur / Rajasthan Border',
+    regionName: 'Sri Ganganagar (Rajasthan) Cross-Border Raids',
+    district: 'Sri Ganganagar / Rajasthan',
     coordinates: { x: 190, y: 380 },
     incidentCount: 412,
-    primaryTypology: 'Interstate Transfer & Border Canal Staged Encounters',
-    keyFacilities: ['Abohar Transit Checkpoint', 'Indira Gandhi Canal Feeder', 'Hindumalkot Outpost'],
-    associatedCaseIds: ['case-custom'],
-    summary: 'Cross-border corridor where detainees from central Punjab districts were transferred into remote desert canal stretches of Rajasthan to evade High Court habeas corpus bailiff inspections.',
-    legalExposure: 'Multi-state jurisdiction used intentionally to delay legal accountability.'
+    primaryTypology: 'Interstate Abductions of Farming Relatives (Chak 18-PSD & Chak 7 KNJ)',
+    keyFacilities: ['Village Chak 18-PSD (Padampur)', 'Village Chak 7 KNJ (Karanpur)', 'CIA Staff Batala'],
+    associatedCaseIds: ['case-kotli-harchand'],
+    summary: 'Punjab Police squads crossed state lines into Sri Ganganagar, Rajasthan to abduct farming relatives (like Mohinder Singh from Chak 7 KNJ) and transport them back to Batala CIA Staff as leverage.',
+    legalExposure: 'Documented in Proforma GSP2-47 and 2021 Mohali CBI Court convictions.'
   }
 ];
 
@@ -168,8 +140,8 @@ export const WORKSTATION_KPIS = {
 
 export const VIOLATION_TYPOLOGY_BREAKDOWN = [
   { label: 'Enforced Disappearance', count: 774, percentage: 62, color: '#006B7D' },
-  { label: 'Extrajudicial Cremation', count: 300, percentage: 24, color: '#10B981' },
-  { label: 'Torture / Custodial Death', count: 174, percentage: 14, color: '#F59E0B' }
+  { label: 'Extrajudicial Execution', count: 300, percentage: 24, color: '#10B981' },
+  { label: 'Illegal Remand & Torture', count: 174, percentage: 14, color: '#F59E0B' }
 ];
 
 export const DISTRICT_DENSITY = [

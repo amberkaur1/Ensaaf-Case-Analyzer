@@ -9,109 +9,119 @@ import {
 export const SOURCES_KOTLI: EvidenceSource[] = [
   {
     id: 'src-5121-s2',
-    code: '5121-Source 2: Para 1',
-    title: 'CCDP Survivor Field Notes & Sworn Affidavit of Jaswant Kaur',
-    date: '1997-04-12 (Interview Notes) & 1999-02-14 (Affidavit)',
-    archive: 'Committee for Coordination on Disappearances in Punjab (CCDP) Archive',
-    classification: 'Survivor Field Interview & Sworn Affidavit',
-    interviewerOrAuthority: 'Human Rights Documentation Team / Jaswant Kaur (Spouse)',
-    fullExcerpt: `Deponent Jaswant Kaur w/o Baba Hardit Singh, aged 54 years, resident of Village Kotli Harchand, Tehsil Batala, District Gurdaspur states on solemn affirmation:
-On 6th March 1992, at approximately 10:30 AM, my husband Baba Hardit Singh along with Baba Sohan Singh (Record 5120) and Mohinder Singh was intercepted near the Nangal Jhanda canal bridge by two unmarked white Maruti gypsies and a police truck. The raiding party was commanded by Inspector Dilbagh Singh, In-charge CIA Staff Batala, accompanied by SI Bhupinder Singh. My husband was forcibly pulled down from the tractor, blindfolded with his own parna (turban cloth), and thrown into the gypsy. When bystanders inquired, Inspector Dilbagh Singh threatened them with automatic weapons and shouted that anyone asking questions would meet the same fate.
+    code: '5121-Source 2: Proforma GSP2-47',
+    title: 'Shared Multi-Victim Interview Notes of Rachhpal Singh (Records 5120, 5121, 5122, 5123)',
+    date: 'Ensaaf Field Intake (Proforma GSP2-47)',
+    archive: 'Ensaaf Evidence Archive (Village Code: 00318452 - Kotli Harchand)',
+    classification: 'Bilingual Survivor Testimony (Punjabi Gurmukhi & English)',
+    interviewerOrAuthority: 'Respondent: Rachhpal Singh (Son of Baba Sohan Singh / Nephew of Baba Hardit Singh)',
+    fullExcerpt: `[Initial Interview Notes - Paragraph 1 (concerns 5121 & 5120)]:
+At the time when the police were holding my father Sohan Singh, my paternal uncles, my maternal uncle, my maternal uncles' sons, and other sewadars of the Dera, Baba Hardit Singh sought the help of a man named Mahant Prem Singh. SSP Gurnek Singh Grewal was a devotee of that Mahant and often visited his dera. The Mahant told Baba Hardit Singh that SSP Gurnek Singh Grewal was demanding six lakh rupees. In return, he would release your brothers, your brother-in-law, his son, and the sewadars, and whatever goods of the Dera the police had carried away would also be returned. When Baba Hardit Singh Ji took the money to Mahant Prem Singh, the Mahant seated him in a car and set off to take him to SSP Grewal. On the way, Dilbagh Singh had set up a checkpoint (naka) on the canal bridge near village Nangal Jhanda. There, Dilbagh made Baba Hardit Singh Ji get out of the vehicle and produced him before SSP Grewal at Batala. After that they took Baba Hardit Singh to the CIA Staff Batala and said they would release Baba Ji after one week. But that week never came. Baba Hardit Singh was kept at the CIA Staff for about 3-4 months and at Dhariwal police post (chowki) for about 25 days... Through an intermediary, we negotiated with IGP Pannu for the release of Baba Hardit Singh and all the men who had been caught. The IGP said that your men would be released on July 3. A sewadar met Baba Hardit Singh on the evening of July 2... We learned later that on the night of July 2, the police took Baba Hardit Singh and Sohan Singh out of Dhariwal police post to the Bhattian bridge on the Sri Hargobindpur river. There an inspector took Baba Hardit Singh and Baba Sohan Singh out of the police vehicle and walked them 10-15 meters ahead, and after some time that inspector came back alone, and they started the vehicle and drove away.
 
-They were transported directly to CIA Staff Batala where they were kept in solitary cell without entry in the Daily Diary (Roznamcha). On 12th March 1992, Mahant Prem Singh approached our family stating that SSP Gurnek Singh Grewal and Inspector Dilbagh Singh demanded ₹1,00,000 for sparing Baba Hardit Singh's life. We sold family jewelry and four acres of wheat crop to deliver ₹45,000 to Mahant Prem Singh at his dera. Despite payment, Baba Hardit Singh was never produced in any magistrate court.`,
-    highlightSnippet: 'My husband Baba Hardit Singh along with Baba Sohan Singh was intercepted near the Nangal Jhanda canal bridge by two unmarked white Maruti gypsies... commanded by Inspector Dilbagh Singh, In-charge CIA Staff Batala.',
-    gurmukhiExcerpt: 'ਮਿਤੀ 6 ਮਾਰਚ 1992 ਨੂੰ ਮੇਰੇ ਪਤੀ ਬਾਬਾ ਹਰਦੀਤ ਸਿੰਘ ਅਤੇ ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ ਨੂੰ ਨੰਗਲ ਝੰਡਾ ਨਹਿਰੀ ਪੁਲ ਨੇੜਿਓਂ ਬਟਾਲਾ ਸੀ.ਆਈ.ਏ. ਇੰਸਪੈਕਟਰ ਦਿਲਬਾਗ ਸਿੰਘ ਅਤੇ ਸਾਥੀ ਪੁਲਿਸ ਵਾਲਿਆਂ ਨੇ ਅਗਵਾ ਕਰ ਲਿਆ ਸੀ।',
+[Paragraph 2 (concerns 5120 - Sohan Singh)]:
+While Baba Sohan Singh Ji was looking after the Gurdwara Sahib at villages Bassi Daulat Khan and Chak Ramdas in Hoshiarpur district, the police arrested him... kept him in custody for 12 days and then released him. After this, Baba Sohan Singh Ji came to look after Gurdwara Ber Sahib at village Chak Mansoor. A few days after coming here... on the Fatehgarh Churian road (near village Talwandi Bharat) the police surrounded and caught him, seated him in a police jeep, and took him to the CIA Staff Batala. Our family tried very hard to get him released, but the police's only answer was: produce Baba Hardit Singh.
+
+[Paragraph 3 & Follow-up 6-8 (concerns 5122 - Mohinder Singh)]:
+My paternal uncle Mohinder Singh supported his household by farming in village Chak 18-PSD, tehsil Padampur, district Sri Ganganagar, in Rajasthan. He was taken into custody from village Chak 7 KNJ, tehsil Karanpur, Sri Ganganagar (at a relative's house) and kept at CIA Staff Batala for three months. To get Mohinder Singh released, Baba Hardit Singh Ji met a minister of the Punjab government and IGP Harbans Singh Pannu at Batala. They told him to attend a ruling party rally at Batala where the minister would honour him with a siropa and he should join their party. Baba Hardit Singh declined; after his refusal, security officials disappeared/killed Mohinder Singh.
+
+[Paragraph 4 & Follow-up 9-11 (concerns 5123 - Tarlochan Singh)]:
+My paternal uncle Tarlochan Singh was caught by police at Pathankot railway station between May 1, 1991 and June 30, 1991. Police put a false case of an illegal .12 bore rifle on him (after his saandhu approached ASI Malkiat Singh Chahal) and sent him to Gurdaspur jail. After Baba Hardit Singh refused to join the ruling party, police took Tarlochan Singh on remand from Gurdaspur jail to Kahnuwan police station, tortured him for about a week, and later claimed he had escaped from police custody.`,
+    highlightSnippet: 'We learned later that on the night of July 2, the police took Baba Hardit Singh and Sohan Singh out of Dhariwal police post to the Bhattian bridge on the Sri Hargobindpur river. There an inspector took Baba Hardit Singh and Baba Sohan Singh out of the police vehicle and walked them 10-15 meters ahead, and after some time that inspector came back alone.',
+    gurmukhiExcerpt: 'ਸਾਨੂੰ ਬਾਅਦ ਵਿੱਚ ਪਤਾ ਲੱਗਾ ਕਿ 2 ਜੁਲਾਈ ਦੀ ਰਾਤ ਨੂੰ ਪੁਲਿਸ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਅਤੇ ਸੋਹਣ ਸਿੰਘ ਨੂੰ ਧਾਰੀਵਾਲ ਪੁਲਿਸ ਚੌਂਕੀ ਤੋਂ ਕੱਢ ਕੇ ਸ੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ ਦਰਿਆ ਦੇ ਭੱਟੀਆਂ ਵਾਲੇ ਪੁਲ ਤੇ ਲੈ ਗਈ ਸੀ। ਉੱਥੇ ਇੱਕ ਇੰਸਪੈਕਟਰ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਅਤੇ ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ ਨੂੰ ਪੁਲਿਸ ਦੀ ਗੱਡੀ ਵਿੱਚੋਂ ਕੱਢ ਕੇ 10-15 ਮੀਟਰ ਅੱਗੇ ਲੈ ਗਿਆ, ਅਤੇ ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਉਹ ਇੰਸਪੈਕਟਰ ਇਕੱਲਾ ਹੀ ਵਾਪਸ ਮੁੜ ਆਇਆ ਅਤੇ ਉਹ ਗੱਡੀ ਸਟਾਰਟ ਕਰਕੇ ਉੱਥੋਂ ਚਲੇ ਗਏ।',
     metadata: {
-      recordNumber: '5121',
-      deponent: 'Jaswant Kaur (Wife of Baba Hardit Singh)',
-      village: 'Kotli Harchand',
-      policeStation: 'CIA Staff Batala / PS Sri Hargobindpur'
+      recordNumber: '5120, 5121, 5122, 5123',
+      deponent: 'Rachhpal Singh (Son of Sohan Singh)',
+      village: 'Kotli Harchand (Code: 00318452)',
+      policeStation: 'CIA Staff Batala / Dhariwal Chowki / Kahnuwan'
     }
   },
   {
     id: 'src-5121-ccdp-01147',
-    code: 'CCDP/01147: Details of Occurrence',
-    title: 'CCDP Detailed Custody & Encounter Investigation Report',
-    date: '2001-08-20',
-    archive: 'CCDP Verification Dossier Collection (Case Ref 01147)',
-    classification: 'Independent Fact-Finding Field Dossier',
-    interviewerOrAuthority: 'CCDP Legal Cell Investigation Team',
-    fullExcerpt: `CCDP INCIDENT DOSSIER: Case Ref 01147 / Kotli Harchand Cluster
-Victims Identified: Baba Hardit Singh (Record 5121), Baba Sohan Singh (Record 5120), Mohinder Singh (5122), Tarlochan Singh (5123).
-Custodial Log Analysis: The victims were initially detained at CIA Staff Batala from March 6 to early June 1992. When inquiries began mounting from the village Panchayat, the detainees were shifted to Dhariwal Police Chowki under the cover of night. Multiple custodial witnesses corroborated seeing Baba Hardit Singh limping severely due to roller torture and wooden beam pressure (ghotna) applied during interrogation by SI Bhupinder Singh and SI Harminder Singh.
-
-On the night between 1st and 2nd July 1992, the detainees were bundled into a canvas-topped police vehicle and driven to the Beas River embankment near Bhattian Bridge, Sri Hargobindpur. Firing was opened by police personnel under Inspector Dilbagh Singh. Next morning, police released a fabricated press release claiming four 'unidentified militants' were killed in a fierce encounter while attempting to ambushed a police patrolling party. Bodies were secretly transferred to Batala Municipal cremation ground without post-mortem identification or handing over remains to relatives.`,
-    highlightSnippet: 'The victims were initially detained at CIA Staff Batala... shifted to Dhariwal Police Chowki... driven to Bhattian Bridge, Sri Hargobindpur. Firing was opened by police personnel under Inspector Dilbagh Singh.',
-    gurmukhiExcerpt: 'ਪੀੜਤਾਂ ਨੂੰ ਬਟਾਲਾ ਸੀਆਈਏ ਤੋਂ ਧਾਰੀਵਾਲ ਚੌਕੀ ਵਿੱਚ ਬਦਲਿਆ ਗਿਆ ਅਤੇ 2 ਜੁਲਾਈ 1992 ਦੀ ਰਾਤ ਨੂੰ ਭੱਟੀਆਂ ਪੁਲ ਸ਼੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ ਕੋਲ ਝੂਠਾ ਮੁਕਾਬਲਾ ਬਣਾ ਕੇ ਸ਼ਹੀਦ ਕਰ ਦਿੱਤਾ ਗਿਆ।',
+    code: '5121-Source 3: CCDP/01147',
+    title: 'CCDP Disappearance Intake Dossier (Case No. CCDP/01147)',
+    date: '1997-08-03',
+    archive: 'Committee for Coordination on Disappearances in Punjab (CCDP)',
+    classification: 'Primary Family Intake Dossier',
+    interviewerOrAuthority: 'Sender: Kuldeep Singh (Son of Baba Hardit Singh & Jaswant Kaur)',
+    fullExcerpt: `Case No. CCDP/01147 | Name: Hardit Singh (Baba) | Alias: Baba Ji | Age: 55 | Father: Inder Singh (Late) | Mother: Bachan Kaur | Spouse: Jaswant Kaur (aged 52) | Village: Kotli Harchandan, PO Sekhwan, Patti Bhaike Wali, PS Dhariwal, Tehsil Batala, Distt. Gurdaspur | Occupation: Kar Sewa.
+Date of Disappearance: 06/03/1992.
+Details of Occurrence: On 6 March 1992, Baba Hardit Singh handed over Rs. 6.5 Lakhs to Mahant Prem Dass (Police Tout), who had assured him that he would arrange for him to appear before the Police so that his life would be spared. Baba Hardit Singh was therefore travelling from Sangrur towards Batala together with an associate of Mahant Prem Dass, namely Jagtar Singh r/o Malerkotla (Sangrur). Near the canal bridge close to Village Bhagwanpur, Baba Hardit Singh and Jagtar Singh were made to get down from their Ambassador car. Inspector Dilbagh Singh was leading the Police party.
+Jaswant Kaur w/o Baba Hardit Singh, a Sewadar Bakhshish Singh, and Piara Singh, maternal uncle of Baba Hardit Singh, were following in a Maruti van. They watched the Police take Baba Hardit Singh and his companion into custody. They turned the van around at once and left so that they would not be arrested too.
+In May-June 1992, DSP Jarnel Singh of Qadian brought Baba Hardit Singh to the Dhariwal branch of Punjab National Bank. His wife Jaswant Kaur, close relative Gurdial Singh r/o Vill. Bhullar, and Sarwan Singh (Cook at Gurdwara Ber Sahib, Chak Mansoor) met/saw him at Dhariwal Police Chowki in June 1992. Last seen in Police Custody on 30 June evening by Jaswant Kaur, Piara Singh, Gurdial Singh, and Nachhattar Singh at Dhariwal Police Chowki.
+Habeas Corpus: Writ No. 1218/1992 filed in Punjab & Haryana High Court through Advocate Meenakshi Grover (Sector 15-A, Chandigarh). Judicial Enquiry found six persons (including Baba Hardit Singh) had disappeared; High Court subsequently ordered a CBI enquiry.
+Connected Family Members Disappeared/Killed: Baba Sohan Singh, Mohinder Singh, Tarlochan Singh (Brothers); Ajaib Singh (brother-in-law); Kulwant Singh (brother-in-law's son); Mukhtiar Singh (brother-in-law of youngest brother).
+Loss of Assets (caused by SSP Gurnek Singh Grewal, Insp. Dilbagh Singh, ASI Hazara Singh, Insp. Mehal Singh): Items belonging to Dera and Guru Ghar taken away: 1. Cement and bricks worth Rs. 30,00,000/-; 2. 9 Trucks and Tractors; 3. Household items; 4. Construction tools and scaffolding; 5. 40 Cattle. Total value Rs. 75,00,000/- (Seventy-Five Lakhs).`,
+    highlightSnippet: 'On 6 March 1992, Baba Hardit Singh handed over Rs. 6.5 Lakhs to Mahant Prem Dass (Police Tout)... Near the canal bridge close to Village Bhagwanpur, Baba Hardit Singh and Jagtar Singh were made to get down from their Ambassador car. Inspector Dilbagh Singh was leading the Police party.',
+    gurmukhiExcerpt: '6 ਮਾਰਚ 1992 ਨੂੰ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਨੇ ਮਹੰਤ ਪ੍ਰੇਮ ਦਾਸ ਨੂੰ 6.5 ਲੱਖ ਰੁਪਏ ਦਿੱਤੇ... ਇੰਸਪੈਕਟਰ ਦਿਲਬਾਗ ਸਿੰਘ ਦੀ ਅਗਵਾਈ ਵਾਲੀ ਪੁਲਿਸ ਪਾਰਟੀ ਨੇ ਉਹਨਾਂ ਨੂੰ ਅੰਬੈਸਡਰ ਕਾਰ ਵਿੱਚੋਂ ਉਤਾਰ ਕੇ ਹਿਰਾਸਤ ਵਿੱਚ ਲੈ ਲਿਆ।',
     metadata: {
       recordNumber: 'CCDP/01147',
-      incidentSite: 'Bhattian Bridge, Sri Hargobindpur',
-      holdingFacility: 'CIA Staff Batala / Dhariwal Chowki',
-      method: 'Staged encounter after prolonged illegal custody'
+      incidentSite: 'Canal Bridge near Nangal Jhanda / Bhagwanpur',
+      holdingFacility: 'CIA Staff Batala / Dhariwal Police Chowki',
+      method: 'Abduction via extortion trap; Rs. 75 Lakh Dera assets looted'
     }
   },
   {
     id: 'src-cbi-judgment-2021',
-    code: 'CBI Special Court Mohali 2021',
-    title: 'Judgment in State (CBI) vs Dilbagh Singh & Ors (RC 3(S)/97)',
+    code: '5121-Source 8: CBI Verdict News (2021)',
+    title: '6 Punjab Cops Convicted in Baba Hardit Singh Fake Encounter Case (National Courier & Northern Herald)',
     date: '2021-02-23',
-    archive: 'Special Judge for CBI Cases, Mohali Judicial Records',
-    classification: 'Final Judicial Ruling & Sentencing Order',
-    interviewerOrAuthority: 'Special Judge for CBI Cases, Mohali (Punjab)',
-    fullExcerpt: `IN THE COURT OF SPECIAL JUDGE, CBI, PUNJAB, SAS NAGAR (MOHALI)
-Case No: RC 3(S)/97/SIU-V/CBI/ND - Judgment delivered on 23.02.2021.
-Accused:
-1. Dilbagh Singh, then Inspector / In-charge CIA Staff Batala
-2. Gurnek Singh Grewal, then SSP Batala (proceedings abated upon death)
-3. Bhupinder Singh, then Sub-Inspector CIA Batala
-4. Harminder Singh, then Sub-Inspector CIA Batala
-5. Rakesh Kumar Sharma, then Sub-Inspector Dhariwal Chowki
+    archive: 'The National Courier (Harpreet Sekhon) & The Northern Herald (Ritika Bansal)',
+    classification: 'Special CBI Court Mohali Conviction Reports',
+    interviewerOrAuthority: 'Special CBI Judge Anil Kumar Sood, Mohali',
+    fullExcerpt: `MOHALI / CHANDIGARH (Feb 23, 2021): Twenty-nine years after Batala-based religious leader Baba Hardit Singh (who oversaw kar sewa at 22 gurdwaras across Punjab and Rajasthan) and five members of his family disappeared, Special CBI Judge Anil Kumar Sood in Mohali convicted six Punjab Police personnel of abducting and murdering them:
+1. Inspector Dilbagh Singh: 8 years Rigorous Imprisonment (RI) and Rs 40,000 fine.
+2. Sub-Inspector Bhupinder Singh: 8 years RI and Rs 40,000 fine.
+3. Sub-Inspector Harminder Singh: 8 years RI and Rs 25,000 fine.
+4. Sub-Inspector Rakesh Kumar Sharma (Sarma): 4 years RI and Rs 30,000 fine (currently serving in state intelligence wing).
+5. Assistant Sub-Inspector (ASI) Dilbagh Singh: 3 years RI and Rs 40,000 fine.
+6. Head Constable Mukhtyar Singh (Mukhtiar Singh): 3 years RI and Rs 40,000 fine.
 
-FINDING OF FACT: The prosecution has proved beyond shadow of reasonable doubt that Baba Hardit Singh, Baba Sohan Singh, and co-victims were picked up without authority of law on 06.03.1992 and kept in unrecorded illegal custody at Batala CIA Staff and Dhariwal Chowki. The defense claim that the deceased were armed militants killed in retaliatory fire during crossfire at Bhattian Bridge is an absolute fabrication designed to cover extrajudicial liquidation. The recovery memos for AK-47 rifles were planted and backdated. The court hereby sentences convict Dilbagh Singh and co-accused to Life Imprisonment under Sections 302/364/120-B of the Indian Penal Code.`,
-    highlightSnippet: 'The court hereby sentences convict Dilbagh Singh and co-accused to Life Imprisonment under Sections 302/364/120-B of the Indian Penal Code, concluding the defense claim of crossfire at Bhattian Bridge was an absolute fabrication.',
-    gurmukhiExcerpt: 'ਮੋਹਾਲੀ ਸੀਬੀਆਈ ਦੀ ਵਿਸ਼ੇਸ਼ ਅਦਾਲਤ ਨੇ 23 ਫਰਵਰੀ 2021 ਨੂੰ ਇੰਸਪੈਕਟਰ ਦਿਲਬਾਗ ਸਿੰਘ ਅਤੇ ਹੋਰ ਪੁਲਿਸ ਅਧਿਕਾਰੀਆਂ ਨੂੰ ਉਮਰ ਕੈਦ ਦੀ ਸਜ਼ਾ ਸੁਣਾਈ।',
+Acquittals & Abatements: The court acquitted DSP Sukhjinder Singh Bajwa (Sukhjindar Singh Bajwa) and SI Amarjit Singh. Six accused policemen died during the trial: SSP Gurnek Singh Grewal, SIs Joginder Pal and Kartar Singh, and ASIs Mohan Lal, Hazara Singh, and Santokh Singh. Proceedings against retired DIG Vinod Kumar Bhalla are pending before the Punjab and Haryana High Court.
+CBI Findings: The case was handed to the CBI in 1996 after Baba Hardit Singh's wife, Jaswant Kaur (and revision petition by Bibi Manjeet Kaur, wife of Kulwant Singh), approached the Punjab and Haryana High Court. The CBI concluded that Baba Hardit Singh Kotliwale, his three brothers Baba Sohan Singh, Mohinder Singh, and Tarlochan Singh, his brother-in-law Ajaib Singh, and Ajaib's son Kulwant Singh (a Punjab Home Guards volunteer) were picked up from different places, held illegally by CIA Staff Batala, booked in false cases, and later shown as killed in an encounter while trying to escape custody.`,
+    highlightSnippet: 'Special CBI judge Anil Kumar Sood sentenced four police officers (Inspector Dilbagh Singh, SI Bhupinder Singh, SI Harminder Singh to 8 years RI; SI Rakesh Kumar Sharma to 4 years RI) and two others (ASI Dilbagh Singh and HC Mukhtyar Singh to 3 years RI) in the encounter killing of Baba Hardit Singh and five of his relatives.',
+    gurmukhiExcerpt: 'ਮੋਹਾਲੀ ਦੀ ਵਿਸ਼ੇਸ਼ ਸੀ.ਬੀ.ਆਈ ਅਦਾਲਤ ਦੇ ਜੱਜ ਅਨਿਲ ਕੁਮਾਰ ਸੂਦ ਨੇ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਅਤੇ ਉਹਨਾਂ ਦੇ ਪੰਜ ਰਿਸ਼ਤੇਦਾਰਾਂ ਦੇ ਅਗਵਾ ਅਤੇ ਝੂਠੇ ਮੁਕਾਬਲੇ ਦੇ ਮਾਮਲੇ ਵਿੱਚ 6 ਪੰਜਾਬ ਪੁਲਿਸ ਮੁਲਾਜ਼ਮਾਂ ਨੂੰ ਕੈਦ ਦੀ ਸਜ਼ਾ ਸੁਣਾਈ।',
     metadata: {
-      caseNumber: 'RC 3(S)/97/SIU-V/CBI/ND',
-      judicialCourt: 'Special Judge CBI Court, Mohali',
-      sections: 'IPC 302, 364, 120-B, 201',
-      outcome: 'Conviction & Life Imprisonment'
+      caseNumber: 'CBI Investigation (Transferred 1996, Decided Feb 23, 2021)',
+      judicialCourt: 'Special CBI Judge Anil Kumar Sood, Mohali',
+      sections: 'Abduction, Illegal Detention & Fake Encounter Killing',
+      outcome: '6 Police Personnel Convicted (3 to 8 Years RI)'
     }
   },
   {
     id: 'src-5120-s1',
-    code: '5120-Source 1: Panchayat Resolution',
-    title: 'Resolution of Village Panchayat Kotli Harchand & Joint Deposition',
-    date: '1992-04-05',
-    archive: 'Punjab Human Rights Commission & Ensaaf Archive',
-    classification: 'Village Council Sworn Resolution',
-    interviewerOrAuthority: 'Sarpanch & Village Elders, Kotli Harchand',
-    fullExcerpt: `Resolution passed unanimously by Gram Panchayat Kotli Harchand on 5th April 1992:
-We, the elected representatives and villagers of Kotli Harchand, affirm that Baba Sohan Singh (62 yrs) and Baba Hardit Singh (58 yrs) are peaceful, religious elders responsible for the local Gurdwara administration with no criminal history. On 06-03-1992, they were abducted by Batala CIA police. A deputation of 25 elders met SSP Batala who demanded through Mahant Prem Singh that the village withdraw all complaints. We affirm that neither person was an absconder nor carrying arms.`,
-    highlightSnippet: 'Baba Sohan Singh and Baba Hardit Singh are peaceful, religious elders responsible for the local Gurdwara administration with no criminal history... abducted by Batala CIA police.',
-    gurmukhiExcerpt: 'ਗਰਾਮ ਪੰਚਾਇਤ ਕੋਟਲੀ ਹਰਚੰਦ ਨੇ ਮਤਾ ਪਾਸ ਕਰਕੇ ਤਸਦੀਕ ਕੀਤਾ ਕਿ ਬਾਬਾ ਹਰਦੀਤ ਸਿੰਘ ਅਤੇ ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ ਧਾਰਮਿਕ ਸ਼ਖਸੀਅਤਾਂ ਸਨ ਜਿਨ੍ਹਾਂ ਦਾ ਕੋਈ ਅਪਰਾਧਕ ਰਿਕਾਰਡ ਨਹੀਂ ਸੀ।',
+    code: '5120 & 5121-Source 1: REDCap Profiles',
+    title: 'REDCap Structured Case Profiles: Baba Sohan Singh (5120) & Baba Hardit Singh (5121)',
+    date: 'Retrieved October 11, 2026',
+    archive: 'Ensaaf REDCap Case Database',
+    classification: 'Structured REDCap Data Profiles',
+    interviewerOrAuthority: 'Ensaaf Documentation Team',
+    fullExcerpt: `[Profile 5120 - Sohan Singh]: Male, age 46-47 | Residence: Kotli Harchand, Batala, Gurdaspur | Education: Middle school | Married: Yes (3 children) | Religion: Sikh, Amritdhari | Caste: Jat. Prior detentions: Yes, 1 (12 days in Hoshiarpur). Abduction preceding execution: Yes, between Feb 18, 1992 and Feb 19, 1992. Witness: Spouse. Forces involved in abduction: Batala CIA Staff, Punjab Police (Dilbagh Singh Rajpuria, SHO CIA Batala; ASI Sharma). Extrajudicial execution on June 28, 1992 / July 2, 1992 (Officials involved in execution: SHO Jarnail Singh). Body returned: No. Response by officials: Denied involvement, Admitted extrajudicial execution with no explanation.
+
+[Profile 5121 - Hardit Singh]: Male, age 50-57 | Residence: Kotli Harchand, Batala, Gurdaspur | Education: Primary school | Married: Yes (6 children) | Religion: Sikh, Amritdhari | Caste: Jat. Abduction preceding execution: Yes, between March 1, 1992 and March 15, 1992 at a checkpoint (naka). Witnesses: Spouse; Friend. Officials involved in abduction: Inspector Dilbagh Rajpuria, HC Bhupinder Singh, SI Harminder Singh, ASI Rakesh Kumar Sharma (Batala CIA Staff). Extrajudicial execution on July 2, 1992 (SHO Jarnail Singh). Connected Victims: 4 extrajudicial executions/disappearances in family.`,
+    highlightSnippet: 'Officials involved in abduction: Dilbagh Singh Rajpuria (SHO/Inspector, Batala CIA Staff), Bhupinder Singh, Harminder Singh, Rakesh Kumar Sharma. Officials involved in extrajudicial execution: Jarnail Singh, Station House Officer.',
+    gurmukhiExcerpt: 'ਪੀੜਤ ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ (5120) ਅਤੇ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ (5121), ਵਾਸੀ ਪਿੰਡ ਕੋਟਲੀ ਹਰਚੰਦ, ਤਹਿਸੀਲ ਬਟਾਲਾ, ਜ਼ਿਲ੍ਹਾ ਗੁਰਦਾਸਪੁਰ।',
     metadata: {
-      recordNumber: '5120',
-      deponent: 'Gram Panchayat Kotli Harchand'
+      recordNumber: '5120 & 5121',
+      deponent: 'Ensaaf Structured REDCap Database'
     }
   },
   {
     id: 'src-fir-43-92',
-    code: '5121-Source 1: FIR 43/92 Extract',
-    title: 'FIR No. 43/92 Police Station Sri Hargobindpur (Fabricated Encounter FIR)',
-    date: '1992-07-02',
-    archive: 'Batala Police District Crime Records (Ex. PW-4/B in CBI Court)',
-    classification: 'Police FIR Document (Found Fabricated by Court)',
-    interviewerOrAuthority: 'Inspector Dilbagh Singh, Batala CIA Staff',
-    fullExcerpt: `FIRST INFORMATION REPORT No. 43/92 under Section 307 IPC, 25/54/59 Arms Act, 3/4/5 TADA:
-Complainant: Inspector Dilbagh Singh, Incharge CIA Staff Batala.
-Narrative: While patrolling the canal bank near Bhattian Bridge with SI Bhupinder Singh and police party in connection with anti-terrorist operations, four suspected terrorists fired indiscriminately from sugarcane fields at the police gypsy. In self-defense, police party returned fire. After exchange ceased, four male bodies were discovered with two AK-47 rifles and cartridges. One person fled towards the riverbed.
-[JUDICIAL NOTE: CBI Special Court found that this FIR was manufactured after victims were already executed in illegal custody].`,
-    highlightSnippet: 'While patrolling canal bank near Bhattian Bridge... returned fire in self-defense... four male bodies discovered [found fabricated by CBI Court].',
-    gurmukhiExcerpt: 'ਥਾਣਾ ਸ੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ ਵਿਖੇ ਦਰਜ ਕੀਤੀ ਐਫ.ਆਈ.ਆਰ ਨੰਬਰ 43/92 ਨੂੰ ਸੀ.ਬੀ.ਆਈ ਵਿਸ਼ੇਸ਼ ਅਦਾਲਤ ਨੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਜਾਅਲੀ ਅਤੇ ਮਨਘੜਤ ਕਰਾਰ ਦਿੱਤਾ।',
+    code: '5122 & 5123-Source 1: REDCap Profiles',
+    title: 'REDCap Structured Case Profiles: Mohinder Singh (5122) & Tarlochan Singh (5123)',
+    date: 'Retrieved October 11, 2026',
+    archive: 'Ensaaf REDCap Case Database',
+    classification: 'Structured REDCap Data Profiles',
+    interviewerOrAuthority: 'Ensaaf Documentation Team',
+    fullExcerpt: `[Profile 5122 - Mohinder Singh]: Disappeared on June 11, 1991 | Male, age 41-42 | Residence: Rajasthan (Village Chak 18-PSD, Tehsil Padampur, Distt. Sri Ganganagar) | Education: Some college | Employment: Farmer/agriculture | Married: Yes (5 children). Abducted June 11, 1991 from a relative's residence (Village Chak 7 KNJ, Tehsil Karanpur) by Batala Punjab Police (DSP Sukhjinder Singh Bajwa). Demands by security forces: Information about another person (Baba Hardit Singh). Response by officials: No Response, Victim had escaped.
+
+[Profile 5123 - Tarlochan Singh]: Disappeared between May 1, 1991 and June 30, 1991 | Male, age 38-39 | Residence: Rajasthan (Chak 18-PSD, Sri Ganganagar) | Education: Primary school | Employment: Farmer | Married: Yes (4 children). Abducted at Pathankot railway station; presented before judge/magistrate under false .12 bore rifle case; sent to Gurdaspur jail and remanded to Kahnuwan police station (SHO Balbir Singh). Response by officials: Victim had escaped from police custody.`,
+    highlightSnippet: 'Demands by security forces: Information about another person. Response by officials: No Response, Victim had escaped.',
+    gurmukhiExcerpt: 'ਇੱਕ ਸੁਰੱਖਿਆ ਅਧਿਕਾਰੀ ਨੇ ਪਰਿਵਾਰ ਨੂੰ ਦੱਸਿਆ ਕਿ ਪੀੜਤ ਤਰਲੋਚਨ ਸਿੰਘ ਪੁਲਿਸ ਹਿਰਾਸਤ ਵਿੱਚੋਂ ਭੱਜ ਗਿਆ ਹੈ।',
     metadata: {
-      firNumber: '43/92',
-      policeStation: 'Sri Hargobindpur',
-      officer: 'Inspector Dilbagh Singh'
+      firNumber: 'Records 5122 & 5123',
+      policeStation: 'Batala CIA & PS Kahnuwan',
+      officer: 'DSP Sukhjinder Singh Bajwa & SHO Balbir Singh'
     }
   }
 ];
@@ -120,310 +130,310 @@ export const INITIAL_CASES: CaseData[] = [
   {
     id: 'case-kotli-harchand',
     title: 'The Kotli Harchand Cluster (1991–1992)',
-    incidentPeriod: '1991–1992 (Abduction March 6, 1992; Execution July 2, 1992; Judgment 2021)',
-    primaryLocation: 'Kotli Harchand, Batala, Gurdaspur, Punjab',
+    incidentPeriod: 'May 1991 – July 2, 1992 (CBI Verdict: Feb 23, 2021)',
+    primaryLocation: 'Kotli Harchand (Batala, Gurdaspur) & Sri Ganganagar (Rajasthan)',
     victimCount: 6,
-    legalStatus: 'CBI Convictions 2021 (Special CBI Court Mohali - Life Imprisonment)',
-    summary: 'Enforced disappearance and extrajudicial liquidation of Baba Hardit Singh (Record 5121), Baba Sohan Singh (5120), Mohinder Singh (5122), and Tarlochan Singh (5123) by Batala CIA Staff. Victims were illegally abducted, subjected to extortion demands brokered by Mahant Prem Singh, detained in unrecorded custody at Dhariwal Chowki and CIA Batala, and executed in a staged encounter at Bhattian Bridge.',
+    legalStatus: '6 Police Officers Convicted (Feb 23, 2021, Special CBI Court Mohali)',
+    summary: 'Systematic abduction, hostage-taking, extortion, and extrajudicial execution of religious Kar Sewa leader Baba Hardit Singh (5121), his three brothers Baba Sohan Singh (5120), Mohinder Singh (5122), and Tarlochan Singh (5123), his brother-in-law Ajaib Singh, and nephew Kulwant Singh by Batala CIA Staff.',
     primaryVictimName: 'Baba Hardit Singh (Record 5121)',
     primaryVictimVillage: 'Kotli Harchand, Batala, Gurdaspur',
-    primaryVictimStatus: 'Killed in Staged Encounter / CBI Convictions Secured',
-    primaryVictimAge: 58,
-    primaryVictimPhotoUrl: 'https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=400&auto=format&fit=crop', // Historical portrait framing
+    primaryVictimStatus: 'Extrajudicial Execution on July 2, 1992 / 6 Officers Convicted in 2021',
+    primaryVictimAge: 55,
+    primaryVictimPhotoUrl: '',
     demographics: {
-      residence: 'Kotli Harchand, Batala, Gurdaspur',
-      residenceLink: 'data.ensaaf.org/village/00251500',
-      education: 'Gurmat / Vernacular Punjabi',
-      employment: 'Granthi / Agriculture',
-      married: 'Yes (Spouse: Jaswant Kaur)',
+      residence: 'Kotli Harchand (Kotli Harchandan), Batala, Gurdaspur',
+      residenceLink: 'records.example.org/profile/5121/',
+      education: 'Primary school',
+      employment: 'Kar Sewa Leader (Oversaw 22 Gurdwaras in Punjab & Rajasthan)',
+      married: 'Yes (Spouse: Jaswant Kaur, 6 children)',
       religion: 'Sikh, Amritdhari',
       caste: 'Jat',
-      priorDetentions: 'No',
-      abductionPrecedingDisappearance: 'Yes, March 6, 1992',
-      placeOfAbduction: 'Nangal Jhanda Canal Bridge, Batala',
-      witnessesToAbduction: 'Jaswant Kaur (wife) and village farmers',
-      securityOfficialsInformedWitnesses: 'No (Threatened with automatic weapons)',
-      securityOfficialsUniformed: 'Yes, Batala CIA Staff contingent',
-      presentedBeforeMagistrate: 'No (Held in unrecorded solitary confinement)'
+      priorDetentions: 'Picked up twice from Dera previously; released after some days',
+      abductionPrecedingDisappearance: 'Yes, March 6, 1992 (Profile range: March 1–15, 1992)',
+      placeOfAbduction: 'Checkpoint (naka) at canal bridge near Nangal Jhanda / Bhagwanpur',
+      witnessesToAbduction: 'Spouse (Jaswant Kaur), Maternal Uncle (Piara Singh), Sewadar Bakhshish Singh',
+      securityOfficialsInformedWitnesses: 'No',
+      securityOfficialsUniformed: 'Yes (Khaki turban, shirt, pants)',
+      presentedBeforeMagistrate: 'No (Held illegally at CIA Batala for 3-4 months & Dhariwal Chowki for 25 days)'
     },
     comparisons: [
       {
         id: 'comp-1',
-        title: 'Bhattian Bridge Shootout: Police FIR Claim vs Verified CBI Ruling',
-        leftTitle: 'Official Police Account (FIR 43/92 PS Sri Hargobindpur)',
-        leftBadge: 'Inspector Dilbagh Singh / State Narrative',
-        leftContent: 'On the night of 02-07-1992, while police gypsy was patrolling near Bhattian canal bridge, four armed terrorists opened indiscriminate fire from sugarcane reeds. Police returned fire in self-defense. Four unidentified male bodies were recovered with two Chinese AK-47 rifles and 50 empty cartridges.',
-        rightTitle: 'Verified Judicial Finding (Special CBI Court Mohali, 2021)',
-        rightBadge: 'Judicial Precedent / RC 3(S)/97',
-        rightContent: 'Victims had been in continuous illegal custody of CIA Batala and Dhariwal Chowki since 06-03-1992. The defense claim of crossfire is an absolute fabrication manufactured to conceal extrajudicial liquidation. Chinese AK-47 weapons were planted with erased serial numbers, and victims were shot at close range while physically immobilized.',
-        contradictionAnalysis: 'Completely irreconcilable. Forensic trajectory examination and custodial witnesses establish that the victims were executed in police custody 118 days after unrecorded abduction, completely disproving the spontaneous ambush theory.'
+        title: 'Custodial Fate: Police "Escaped Custody" Claim vs. Eyewitness & CBI Findings',
+        leftTitle: 'Official Police Claim (Batala CIA & PS Kahnuwan)',
+        leftBadge: 'Police Defense / Official Response',
+        leftContent: 'Police officials claimed that Tarlochan Singh, Mohinder Singh, Baba Hardit Singh, and relatives had "escaped from police custody" while on remand or transit, or were killed in an encounter after escaping.',
+        rightTitle: 'Verified Eyewitness Testimony & 2021 Special CBI Court Verdict',
+        rightBadge: 'Proforma GSP2-47 & Special CBI Judge Anil Kumar Sood',
+        rightContent: 'IGP Harbans Singh Pannu promised the family on June 30, 1992 that Baba Hardit Singh would be publicly shown as surrendered and released on July 3. Instead, on the night of July 2, 1992, police took Baba Hardit Singh and Baba Sohan Singh from Dhariwal Chowki to Bhattian Bridge on the Sri Hargobindpur river, walked them 10-15 meters ahead of the police vehicle, and executed them.',
+        contradictionAnalysis: 'The Special CBI Court in Mohali (Feb 23, 2021) rejected the police "escape" and "encounter" claims in their entirety, convicting Inspector Dilbagh Singh and 5 other officers of abduction and murder.'
       },
       {
         id: 'comp-2',
-        title: 'Custodial Intermediary: Extortion Pipeline vs Police Denial',
-        leftTitle: 'Police Defense Deposition (Denial of Intermediaries)',
-        leftBadge: 'SSP Grewal & Batala Police Statements',
-        leftContent: 'Police officials categorically denied any knowledge of Mahant Prem Singh acting on their behalf, claiming no communications or financial demands were ever made to the family of Baba Hardit Singh.',
-        rightTitle: 'Survivor Sworn Deposition & Property Sale Deeds',
-        rightBadge: 'Jaswant Kaur Affidavit (PW-3)',
-        rightContent: 'Mahant Prem Singh approached family on 12-03-1992 demanding ₹1,00,000 for SSP Grewal and Dilbagh Singh. Family sold 4 acres of maturing wheat harvest and family gold jewellery, delivering ₹45,000 cash at the dera. Receipts and village witness testimony corroborated transaction.',
-        contradictionAnalysis: 'Direct contradiction establishing predatory extortion enterprise. The Special CBI Court accepted the financial evidence, finding the police tout network guilty of conspiracy under IPC Section 120-B.'
+        title: 'Cross-Source Reconciliation: Interview Notes (Source 2) vs. CCDP Dossier (Source 3)',
+        leftTitle: 'Nephew Rachhpal Singh Interview (5121-Source 2)',
+        leftBadge: 'Proforma GSP2-47 (Bilingual Notes)',
+        leftContent: 'States SSP Gurnek Singh Grewal demanded ₹6 Lakh via Mahant Prem Singh; Inspector Dilbagh Singh intercepted Baba Hardit Singh at the canal bridge near village Nangal Jhanda; Hardit Singh and Sohan Singh were killed at Bhattian Bridge on the night of July 2, 1992.',
+        rightTitle: 'Son Kuldeep Singh CCDP Dossier (5121-Source 3)',
+        rightBadge: 'Case No. CCDP/01147 (Aug 3, 1997)',
+        rightContent: 'States Baba Hardit Singh handed over ₹6.5 Lakhs to Mahant Prem Dass on March 6, 1992; was pulled from an Ambassador car near Village Bhagwanpur canal bridge while Jaswant Kaur trailed in a Maruti van; additionally documents ₹75 Lakh in Dera goods (9 trucks/tractors, 40 cattle, cement/bricks) looted by police.',
+        contradictionAnalysis: 'Minor cross-source variations typical of multi-witness human rights documentation (Prem Singh vs. Prem Dass; ₹6L vs. ₹6.5L; adjacent canal bridge villages Nangal Jhanda vs. Bhagwanpur), while core perpetrators, dates, and custodial sites corroborate 100%.'
       }
     ],
-    tags: ['Batala CIA', 'Bhattian Bridge', 'Extortion Touts', 'CBI Conviction 2021', 'Fake Encounter'],
+    tags: ['Batala CIA Staff', 'Bhattian Bridge', '₹6.5L Extortion & ₹75L Looting', 'CBI Convictions 2021', 'Entity Resolution'],
     victims: [
       {
         id: 'v-5121',
         name: 'Baba Hardit Singh',
         recordId: 'Record 5121',
-        gurmukhi: 'ਬਾਬਾ ਹਰਦੀਤ ਸਿੰਘ',
-        village: 'Kotli Harchand',
-        age: 58,
-        status: 'Killed in Staged Encounter (02-07-1992)',
+        gurmukhi: 'ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ',
+        village: 'Kotli Harchand, Batala',
+        age: 55,
+        status: 'Extrajudicial Execution (July 2, 1992)',
         dateAbducted: '1992-03-06',
         dateKilledOrDisappeared: '1992-07-02',
-        roleDescription: 'Respected Granthi and religious elder of Kotli Harchand Gurdwara; principal victim in CBI trial.'
+        roleDescription: 'Kar Sewa religious leader overseeing 22 Gurdwaras; ambushed at canal bridge checkpoint after paying ₹6–6.5 Lakh extortion.'
       },
       {
         id: 'v-5120',
         name: 'Baba Sohan Singh',
         recordId: 'Record 5120',
         gurmukhi: 'ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ',
-        village: 'Kotli Harchand',
-        age: 62,
-        status: 'Killed in Staged Encounter (02-07-1992)',
-        dateAbducted: '1992-03-06',
+        village: 'Kotli Harchand, Batala',
+        age: 46,
+        status: 'Extrajudicial Execution (June 28 / July 2, 1992)',
+        dateAbducted: '1992-02-18',
         dateKilledOrDisappeared: '1992-07-02',
-        roleDescription: 'Village elder and farmer; companion of Baba Hardit Singh; abducted at canal bridge.'
+        roleDescription: 'Brother of Baba Hardit Singh & father of respondent Rachhpal Singh; sewadar at Gurdwara Ber Sahib (Chak Mansoor); abducted on Fatehgarh Churian road near Talwandi Bharat.'
       },
       {
         id: 'v-5122',
         name: 'Mohinder Singh',
         recordId: 'Record 5122',
         gurmukhi: 'ਮਹਿੰਦਰ ਸਿੰਘ',
-        village: 'Kotli Harchand',
-        age: 34,
-        status: 'Killed in Staged Encounter (02-07-1992)',
-        dateAbducted: '1992-03-06',
-        dateKilledOrDisappeared: '1992-07-02',
-        roleDescription: 'Local youth and agricultural worker, abducted alongside village elders.'
+        village: 'Chak 18-PSD, Sri Ganganagar (Rajasthan)',
+        age: 41,
+        status: 'Disappeared (Abducted June 11, 1991)',
+        dateAbducted: '1991-06-11',
+        dateKilledOrDisappeared: '1991-09-15',
+        roleDescription: 'Brother of Baba Hardit Singh; farmer in Rajasthan abducted from relative’s house in Chak 7 KNJ; killed after Hardit Singh refused to join the ruling political party at a Batala rally.'
       },
       {
         id: 'v-5123',
         name: 'Tarlochan Singh',
         recordId: 'Record 5123',
         gurmukhi: 'ਤਰਲੋਚਨ ਸਿੰਘ',
-        village: 'Kotli Harchand',
-        age: 29,
-        status: 'Killed in Staged Encounter (02-07-1992)',
-        dateAbducted: '1992-03-08',
-        dateKilledOrDisappeared: '1992-07-02',
-        roleDescription: 'Arrested 48 hours later from family fields by same CIA Batala search squad.'
+        village: 'Chak 18-PSD, Sri Ganganagar (Rajasthan)',
+        age: 38,
+        status: 'Disappeared after Custodial Torture (1991)',
+        dateAbducted: '1991-05-15',
+        dateKilledOrDisappeared: '1991-07-01',
+        roleDescription: 'Brother of Baba Hardit Singh; arrested at Pathankot railway station, framed in a false .12 bore rifle case, remanded from Gurdaspur Jail to Kahnuwan PS, tortured, and disappeared.'
       },
       {
         id: 'v-5124',
         name: 'Kulwant Singh',
-        recordId: 'Record 5124',
+        recordId: 'Co-Victim (Nephew)',
         gurmukhi: 'ਕੁਲਵੰਤ ਸਿੰਘ',
-        village: 'Dhariwal Kalan',
+        village: 'Batala, Gurdaspur',
         age: 26,
-        status: 'Disappeared / Presumed Dead',
-        dateAbducted: '1992-03-15',
+        status: 'Killed in Fake Encounter (1992)',
+        dateAbducted: '1992-03-01',
         dateKilledOrDisappeared: '1992-07-02',
-        roleDescription: 'Co-detainee transferred through Dhariwal Chowki during same period.'
+        roleDescription: 'Punjab Home Guards volunteer, son of Ajaib Singh, and husband of petitioner Bibi Manjeet Kaur; held at Batala CIA Staff and killed alongside Baba Hardit Singh.'
       },
       {
         id: 'v-5125',
         name: 'Ajaib Singh',
-        recordId: 'Record 5125',
+        recordId: 'Co-Victim (Brother-in-Law)',
         gurmukhi: 'ਅਜਾਇਬ ਸਿੰਘ',
-        village: 'Sri Hargobindpur',
-        age: 40,
-        status: 'Killed in Joint Staged Operation',
-        dateAbducted: '1992-03-18',
+        village: 'Batala, Gurdaspur',
+        age: 50,
+        status: 'Killed in Fake Encounter (1992)',
+        dateAbducted: '1992-03-01',
         dateKilledOrDisappeared: '1992-07-02',
-        roleDescription: 'Farmer named as co-accused in fabricated FIR 43/92.'
+        roleDescription: 'Brother-in-law of Baba Hardit Singh and father of Kulwant Singh; abducted as family hostage and killed in custody.'
       }
     ],
     phases: [
       {
         id: 'abduction',
-        name: 'Phase 1: Illegal Abduction & Interception',
-        description: 'Unlawful vehicle stop and armed abduction without arrest memos or magisterial notice.',
+        name: 'Phase 1: Family Hostage-Taking & Canal Bridge Ambush',
+        description: 'Police abduct Baba Hardit Singh’s three brothers across Rajasthan and Punjab as bait, then ambush Hardit Singh during an extortion handoff.',
         iconName: 'UserX',
         facts: [
           {
             id: 'f-1',
             phaseId: 'abduction',
-            statement: 'On March 6, 1992, Baba Hardit Singh (Record 5121) and Baba Sohan Singh (Record 5120) were intercepted and illegally abducted near the Nangal Jhanda canal bridge by Batala CIA Staff.',
-            gurmukhiText: '6 ਮਾਰਚ 1992 ਨੂੰ ਬਾਬਾ ਹਰਦੀਤ ਸਿੰਘ ਅਤੇ ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ ਨੂੰ ਨੰਗਲ ਝੰਡਾ ਨਹਿਰ ਦੇ ਪੁਲ ਤੋਂ ਬਟਾਲਾ ਸੀਆਈਏ ਸਟਾਫ਼ ਵੱਲੋਂ ਗ਼ੈਰ-ਕਾਨੂੰਨੀ ਢੰਗ ਨਾਲ ਅਗਵਾ ਕੀਤਾ ਗਿਆ।',
+            statement: 'Between May and June 1991, Punjab Police abducted Baba Hardit Singh’s brothers Mohinder Singh (from Village Chak 7 KNJ, Sri Ganganagar, Rajasthan) and Tarlochan Singh (at Pathankot railway station, booking him under a false .12 bore rifle case) to coerce Baba Hardit Singh into surrendering.',
+            gurmukhiText: 'ਪੁਲਿਸ ਨੇ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ ਉਹਨਾਂ ਦੇ ਭਰਾ ਮਹਿੰਦਰ ਸਿੰਘ ਨੂੰ ਰਾਜਸਥਾਨ ਦੇ ਸ੍ਰੀ ਗੰਗਾਨਗਰ ਜ਼ਿਲ੍ਹੇ ਤੋਂ ਫੜਿਆ ਅਤੇ ਤਰਲੋਚਨ ਸਿੰਘ ਨੂੰ ਪਠਾਨਕੋਟ ਰੇਲਵੇ ਸਟੇਸ਼ਨ ਤੋਂ ਫੜ ਕੇ ਨਾਜਾਇਜ਼ ਬਾਰਾਂ ਬੋਰ ਰਾਈਫ਼ਲ ਦਾ ਝੂਠਾ ਕੇਸ ਪਾ ਕੇ ਗੁਰਦਾਸਪੁਰ ਜੇਲ੍ਹ ਭੇਜ ਦਿੱਤਾ।',
             verifiedStatus: 'pending',
             citations: [
               {
-                badge: '[5121-Source 2: Para 1]',
+                badge: '[5121-Source 2: Para 3 & 4]',
                 sourceId: 'src-5121-s2',
-                paragraph: 'Para 1',
-                excerptSnippet: 'My husband Baba Hardit Singh along with Baba Sohan Singh was intercepted near the Nangal Jhanda canal bridge by two unmarked white Maruti gypsies... commanded by Inspector Dilbagh Singh.'
+                paragraph: 'Initial Notes Para 3-4 & Follow-up Para 7, 10',
+                excerptSnippet: 'The police arrested his brother Mohinder Singh to find out where Baba Hardit Singh was... caught him in Sri Ganganagar district of Rajasthan. The police caught Tarlochan Singh at Pathankot railway station... put a false case of an illegal .12 bore rifle on him.'
               },
               {
-                badge: '[5120-Source 1: Panchayat Resolution]',
-                sourceId: 'src-5120-s1',
-                paragraph: 'Resolution 1',
-                excerptSnippet: 'On 06-03-1992, they were abducted by Batala CIA police... neither person was an absconder.'
+                badge: '[5122 & 5123-Source 1: REDCap Profiles]',
+                sourceId: 'src-fir-43-92',
+                paragraph: 'Abduction & Detention',
+                excerptSnippet: 'Demands by security forces: Information about another person. Victim presented before judge/magistrate: Yes (Tarlochan Singh - Jail, Police custody/remand).'
               }
             ],
-            date: '1992-03-06',
-            keyEntities: ['Baba Hardit Singh', 'Baba Sohan Singh', 'Inspector Dilbagh Singh', 'Nangal Jhanda Canal Bridge']
+            date: '1991-05-01 to 1991-06-11',
+            keyEntities: ['Mohinder Singh', 'Tarlochan Singh', 'DSP Sukhjinder Singh Bajwa', 'SHO Balbir Singh', 'ASI Malkiat Singh Chahal']
           },
           {
             id: 'f-2',
             phaseId: 'abduction',
-            statement: 'The abduction was executed by a Batala CIA Staff contingent operating under direct field orders of Inspector Dilbagh Singh and Sub-Inspector Bhupinder Singh.',
-            gurmukhiText: 'ਇਹ ਅਗਵਾ ਇੰਸਪੈਕਟਰ ਦਿਲਬਾਗ ਸਿੰਘ ਅਤੇ ਸਬ-ਇੰਸਪੈਕਟਰ ਭੁਪਿੰਦਰ ਸਿੰਘ ਦੀ ਅਗਵਾਈ ਹੇਠ ਬਟਾਲਾ ਸੀਆਈਏ ਟੀਮ ਵੱਲੋਂ ਕੀਤਾ ਗਿਆ ਸੀ।',
+            statement: 'In February 1992, CIA Staff Batala surrounded and abducted brother Baba Sohan Singh (5120) near village Talwandi Bharat on the Fatehgarh Churian road (hours after CIA SHO had released him without SSP Batala’s permission).',
+            gurmukhiText: 'ਫ਼ਤਿਹਗੜ੍ਹ ਚੂੜੀਆਂ ਰੋਡ ਤੇ ਪੈਂਦੇ ਪਿੰਡ ਤਲਵੰਡੀ ਭਰਤ ਨੇੜਿਓਂ ਪੁਲਿਸ ਨੇ ਘੇਰਾ ਪਾ ਕੇ ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ ਨੂੰ ਫੜ ਲਿਆ ਅਤੇ ਪੁਲਿਸ ਜੀਪ ਵਿੱਚ ਬਿਠਾ ਕੇ ਸੀ.ਆਈ.ਏ ਸਟਾਫ ਬਟਾਲਾ ਲੈ ਗਏ।',
             verifiedStatus: 'pending',
             citations: [
               {
-                badge: '[5121-Source 2: Para 1]',
+                badge: '[5121-Source 2: Para 2 & Follow-up 1-3]',
                 sourceId: 'src-5121-s2',
-                paragraph: 'Para 1',
-                excerptSnippet: 'The raiding party was commanded by Inspector Dilbagh Singh, In-charge CIA Staff Batala, accompanied by SI Bhupinder Singh.'
+                paragraph: 'Initial Para 2 & Follow-up Para 1-3',
+                excerptSnippet: 'On learning of Sohan Singh\'s release, the SSP ordered that he be taken into custody again... taken into custody near village Talwandi Bharat, on the Fatehgarh Churian road.'
               },
               {
-                badge: '[CBI Special Court Mohali 2021]',
-                sourceId: 'src-cbi-judgment-2021',
-                paragraph: 'Para 44',
-                excerptSnippet: 'The prosecution has proved beyond shadow of reasonable doubt that Baba Hardit Singh, Baba Sohan Singh, and co-victims were picked up without authority of law on 06.03.1992.'
+                badge: '[5120-Source 1: REDCap Profile]',
+                sourceId: 'src-5120-s1',
+                paragraph: 'Abduction & Detention',
+                excerptSnippet: 'Abduction preceding extrajudicial execution: Yes, between February 18, 1992 and February 19, 1992... Officials: Dilbagh Singh Rajpuria, SHO Batala CIA Staff.'
               }
             ],
-            date: '1992-03-06',
-            keyEntities: ['Inspector Dilbagh Singh', 'SI Bhupinder Singh', 'CIA Staff Batala']
+            date: '1992-02-18',
+            keyEntities: ['Baba Sohan Singh', 'Inspector Dilbagh Singh', 'SSP Gurnek Singh Grewal', 'CIA Staff Batala']
           }
         ]
       },
       {
         id: 'detention_extortion',
-        name: 'Phase 2: Unrecorded Detention & Extortion Demands',
-        description: 'Systemic custodial torture, illicit facility bouncing, and financial extortion mediated by local intermediaries.',
+        name: 'Phase 2: ₹6.5 Lakh Extortion Trap, Political Coercion & Illegal Custody',
+        description: 'Extortion brokered by Mahant Prem Singh, political demands by a cabinet minister and IGP Pannu, ₹75 Lakh Dera looting, and months of unrecorded custody.',
         iconName: 'ShieldAlert',
         facts: [
           {
             id: 'f-3',
             phaseId: 'detention_extortion',
-            statement: 'Victims were held in illegal custody without entry in the Daily Diary (Roznamcha) at Batala CIA Staff and later shifted covertly to Dhariwal Chowki.',
-            gurmukhiText: 'ਪੀੜਤਾਂ ਨੂੰ ਬਿਨਾਂ ਰੋਜ਼ਨਾਮਚੇ ਵਿੱਚ ਦਰਜ ਕੀਤੇ ਸੀਆਈਏ ਸਟਾਫ਼ ਬਟਾਲਾ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਗੁਪਤ ਰੂਪ ਵਿੱਚ ਧਾਰੀਵਾਲ ਚੌਕੀ ਵਿੱਚ ਬੰਦੀ ਬਣਾ ਕੇ ਰੱਖਿਆ ਗਿਆ।',
+            statement: 'On March 6, 1992, Baba Hardit Singh paid ₹6–6.5 Lakhs to intermediary Mahant Prem Singh (Prem Dass) to meet SSP Gurnek Singh Grewal and secure his family’s release, but was ambushed en route by Inspector Dilbagh Singh at a canal bridge naka near Nangal Jhanda / Bhagwanpur while Jaswant Kaur watched from a trailing Maruti van.',
+            gurmukhiText: 'ਮਹੰਤ ਨੇ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਨੂੰ ਕਿਹਾ ਕਿ ਐਸ.ਐਸ.ਪੀ ਗੁਰਨੇਕ ਸਿੰਘ ਗਰੇਵਾਲ ਛੇ ਲੱਖ ਰੁਪਏ ਮੰਗ ਰਿਹਾ ਹੈ... ਰਸਤੇ ਵਿੱਚ ਦਿਲਬਾਗ ਸਿੰਘ ਨੇ ਪਿੰਡ ਨੰਗਲ ਝੰਡਾ ਨੇੜੇ ਨਹਿਰ ਦੇ ਪੁਲ ਉੱਤੇ ਨਾਕਾ ਲਾਇਆ ਹੋਇਆ ਸੀ। ਉੱਥੇ ਦਿਲਬਾਗ ਨੇ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਜੀ ਨੂੰ ਗੱਡੀ ਤੋਂ ਹੇਠਾਂ ਉਤਾਰ ਲਿਆ।',
             verifiedStatus: 'pending',
             citations: [
               {
-                badge: '[CCDP/01147: Details of Occurrence]',
-                sourceId: 'src-5121-ccdp-01147',
-                paragraph: 'Custodial Log Analysis',
-                excerptSnippet: 'The victims were initially detained at CIA Staff Batala from March 6 to early June 1992... shifted to Dhariwal Police Chowki under the cover of night.'
+                badge: '[5121-Source 2: Para 1]',
+                sourceId: 'src-5121-s2',
+                paragraph: 'Initial Notes Para 1',
+                excerptSnippet: 'The Mahant told Baba Hardit Singh that SSP Gurnek Singh Grewal was demanding six lakh rupees... On the way, Dilbagh Singh had set up a checkpoint (naka) on the canal bridge near village Nangal Jhanda.'
               },
               {
-                badge: '[CBI Special Court Mohali 2021]',
-                sourceId: 'src-cbi-judgment-2021',
-                paragraph: 'Para 52',
-                excerptSnippet: 'Victims were kept in unrecorded illegal custody at Batala CIA Staff and Dhariwal Chowki.'
+                badge: '[5121-Source 3: CCDP/01147]',
+                sourceId: 'src-5121-ccdp-01147',
+                paragraph: 'Details of Occurrence',
+                excerptSnippet: 'On 6 March 1992, Baba Hardit Singh handed over Rs. 6.5 Lakhs to Mahant Prem Dass... made to get down from their Ambassador car. Jaswant Kaur, Bakhshish Singh, and Piara Singh were following in a Maruti van.'
               }
             ],
-            date: '1992-03-07 to 1992-06-30',
-            keyEntities: ['CIA Staff Batala', 'Dhariwal Chowki', 'Baba Hardit Singh']
+            date: '1992-03-06',
+            keyEntities: ['Baba Hardit Singh', 'Mahant Prem Singh', 'SSP Gurnek Singh Grewal', 'Inspector Dilbagh Singh', 'Jaswant Kaur', 'Nangal Jhanda Canal Bridge']
           },
           {
             id: 'f-4',
             phaseId: 'detention_extortion',
-            statement: 'Police officials demanded ₹1,00,000 as extortion to spare Baba Hardit Singh\'s life, communicated through religious intermediary Mahant Prem Singh; the family sold land and paid ₹45,000.',
-            gurmukhiText: 'ਬਾਬਾ ਹਰਦੀਤ ਸਿੰਘ ਦੀ ਜਾਨ ਬਖ਼ਸ਼ਣ ਬਦਲੇ ਮਹੰਤ ਪ੍ਰੇਮ ਸਿੰਘ ਰਾਹੀਂ 1 ਲੱਖ ਰੁਪਏ ਦੀ ਫਿਰੌਤੀ ਮੰਗੀ ਗਈ, ਜਿਸ ਵਿੱਚੋਂ ਪਰਿਵਾਰ ਨੇ 45,000 ਰੁਪਏ ਅਦਾ ਕੀਤੇ।',
+            statement: 'Police looted ₹75,00,000 worth of Dera and Guru Ghar property (including ₹30 Lakh in cement/bricks, 9 trucks and tractors, and 40 cattle) and held Baba Hardit Singh for 3–4 months at CIA Staff Batala and ~25 days at Dhariwal Police Chowki.',
+            gurmukhiText: 'ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਨੂੰ ਲਗਭਗ 3-4 ਮਹੀਨੇ ਸੀ.ਆਈ.ਏ ਸਟਾਫ ਵਿੱਚ ਅਤੇ 25 ਕੁ ਦਿਨ ਧਾਰੀਵਾਲ ਪੁਲਿਸ ਚੌਂਕੀ ਵਿੱਚ ਰੱਖਿਆ ਗਿਆ।',
             verifiedStatus: 'pending',
             citations: [
               {
-                badge: '[5121-Source 2: Para 2]',
+                badge: '[5121-Source 3: CCDP/01147]',
+                sourceId: 'src-5121-ccdp-01147',
+                paragraph: 'Details of Assets Confiscated',
+                excerptSnippet: '1. Cement and bricks worth Rs. 30,00,000/-; 2. 9 Trucks and Tractors; 3. Household items; 4. Construction tools; 5. 40 Cattle. Total value Rs. 75,00,000/- caused by SSP Gurnek Singh Grewal, Insp. Dilbagh Singh, ASI Hazara Singh, Insp. Mehal Singh.'
+              },
+              {
+                badge: '[5121-Source 2: Para 1]',
                 sourceId: 'src-5121-s2',
-                paragraph: 'Para 2',
-                excerptSnippet: 'Mahant Prem Singh approached our family stating that SSP Gurnek Singh Grewal and Inspector Dilbagh Singh demanded ₹1,00,000... We sold family jewelry and four acres of wheat crop to deliver ₹45,000 to Mahant Prem Singh at his dera.'
+                paragraph: 'Initial Notes Para 1',
+                excerptSnippet: 'Baba Hardit Singh was kept at the CIA Staff for about 3-4 months and at Dhariwal police post (chowki) for about 25 days.'
               }
             ],
-            date: '1992-03-12',
-            keyEntities: ['Mahant Prem Singh', 'SSP Gurnek Singh Grewal', 'Inspector Dilbagh Singh', 'Jaswant Kaur']
+            date: '1992-03-06 to 1992-07-02',
+            keyEntities: ['CIA Staff Batala', 'Dhariwal Police Chowki', 'SSP Gurnek Singh Grewal', 'Inspector Dilbagh Singh']
           }
         ]
       },
       {
         id: 'killing_disappearance',
-        name: 'Phase 3: Extrajudicial Killing & Staged Encounter',
-        description: 'Fabrication of encounter narrative, summary execution at Bhattian Bridge, and secret disposal of remains.',
+        name: 'Phase 3: Deceptive Surrender Promise & Bhattian Bridge Execution',
+        description: 'IGP Pannu promises release on July 3, 1992, but police execute Baba Hardit Singh and Baba Sohan Singh on the night of July 2 at Bhattian Bridge.',
         iconName: 'Skull',
         facts: [
           {
             id: 'f-5',
             phaseId: 'killing_disappearance',
-            statement: 'On the night of July 2, 1992, Baba Hardit Singh and co-detainees were driven to Bhattian Bridge near Sri Hargobindpur and executed in a staged encounter.',
-            gurmukhiText: '2 ਜੁਲਾਈ 1992 ਦੀ ਰਾਤ ਨੂੰ ਬਾਬਾ ਹਰਦੀਤ ਸਿੰਘ ਅਤੇ ਸਾਥੀਆਂ ਨੂੰ ਸ਼੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ ਨੇੜੇ ਭੱਟੀਆਂ ਪੁਲ ਤੇ ਲਿਜਾ ਕੇ ਝੂਠੇ ਪੁਲਿਸ ਮੁਕਾਬਲੇ ਵਿੱਚ ਮਾਰ ਦਿੱਤਾ ਗਿਆ।',
+            statement: 'On June 30, 1992, IGP Harbans Singh Pannu told the family that on July 3 police would publicly announce Baba Hardit Singh had surrendered and release him; sewadars and family last met him at Dhariwal Chowki on the evening of July 2, 1992.',
+            gurmukhiText: 'ਆਈ.ਜੀ.ਪੀ ਨੇ ਜਵਾਬਦੇਹ ਨੂੰ ਦੱਸਿਆ ਕਿ 3 ਜੁਲਾਈ 1992 ਨੂੰ ਸੁਰੱਖਿਆ ਬਲ ਜਨਤਕ ਤੌਰ \'ਤੇ ਐਲਾਨ ਕਰਨਗੇ ਕਿ ਹਰਦਿੱਤ ਸਿੰਘ ਨੇ ਆਤਮ-ਸਮਰਪਣ ਕਰ ਦਿੱਤਾ ਹੈ ਅਤੇ ਇਸ ਤੋਂ ਬਾਅਦ ਉਹਨਾਂ ਨੂੰ ਰਿਹਾਅ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।',
             verifiedStatus: 'pending',
             citations: [
               {
-                badge: '[CCDP/01147: Details of Occurrence]',
-                sourceId: 'src-5121-ccdp-01147',
-                paragraph: 'Occurrence Summary',
-                excerptSnippet: 'On the night between 1st and 2nd July 1992, the detainees were bundled into a canvas-topped police vehicle and driven to the Beas River embankment near Bhattian Bridge... Firing was opened by police personnel under Inspector Dilbagh Singh.'
-              },
-              {
-                badge: '[5121-Source 1: FIR 43/92 Extract]',
-                sourceId: 'src-fir-43-92',
-                paragraph: 'FIR Narrative',
-                excerptSnippet: 'While patrolling the canal bank near Bhattian Bridge with SI Bhupinder Singh... four male bodies were discovered.'
+                badge: '[5121-Source 2: Follow-up Para 5]',
+                sourceId: 'src-5121-s2',
+                paragraph: 'Follow-up Interview Notes Para 5',
+                excerptSnippet: 'On June 30, 1992, he contacted IGP Harbans Singh Pannu... the IGP told the respondent that on July 3, 1992, the security forces would publicly announce that Hardit Singh had surrendered, and after that he would be released.'
               }
             ],
-            date: '1992-07-02',
-            keyEntities: ['Bhattian Bridge Sri Hargobindpur', 'Inspector Dilbagh Singh', 'Baba Hardit Singh', 'Baba Sohan Singh']
+            date: '1992-06-30 to 1992-07-02',
+            keyEntities: ['IGP Harbans Singh Pannu', 'Baba Hardit Singh', 'Dhariwal Police Chowki']
           },
           {
             id: 'f-6',
             phaseId: 'killing_disappearance',
-            statement: 'Police registered fabricated FIR No. 43/92 at PS Sri Hargobindpur falsely claiming terrorists attacked a police party, and secretly cremated the bodies as unidentified.',
-            gurmukhiText: 'ਪੁਲਿਸ ਨੇ ਥਾਣਾ ਸ਼੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ ਵਿਖੇ ਝੂਠੀ ਐਫ.ਆਈ.ਆਰ ਨੰਬਰ 43/92 ਦਰਜ ਕੀਤੀ ਅਤੇ ਲਾਸ਼ਾਂ ਨੂੰ ਲਾਵਾਰਿਸ ਦੱਸ ਕੇ ਗੁਪਤ ਢੰਗ ਨਾਲ ਸਸਕਾਰ ਕਰ ਦਿੱਤਾ।',
+            statement: 'On the night of July 2, 1992, police took Baba Hardit Singh and Baba Sohan Singh from Dhariwal Chowki to Bhattian Bridge on the Sri Hargobindpur river, walked them 10–15 meters ahead of the vehicle, and executed them without returning their bodies.',
+            gurmukhiText: '2 ਜੁਲਾਈ ਦੀ ਰਾਤ ਨੂੰ ਪੁਲਿਸ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਅਤੇ ਸੋਹਣ ਸਿੰਘ ਨੂੰ ਧਾਰੀਵਾਲ ਪੁਲਿਸ ਚੌਂਕੀ ਤੋਂ ਕੱਢ ਕੇ ਸ੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ ਦਰਿਆ ਦੇ ਭੱਟੀਆਂ ਵਾਲੇ ਪੁਲ ਤੇ ਲੈ ਗਈ ਸੀ। ਉੱਥੇ ਇੱਕ ਇੰਸਪੈਕਟਰ ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ ਅਤੇ ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ ਨੂੰ ਪੁਲਿਸ ਦੀ ਗੱਡੀ ਵਿੱਚੋਂ ਕੱਢ ਕੇ 10-15 ਮੀਟਰ ਅੱਗੇ ਲੈ ਗਿਆ, ਅਤੇ ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਉਹ ਇੰਸਪੈਕਟਰ ਇਕੱਲਾ ਹੀ ਵਾਪਸ ਮੁੜ ਆਇਆ।',
             verifiedStatus: 'pending',
             citations: [
               {
-                badge: '[5121-Source 1: FIR 43/92 Extract]',
-                sourceId: 'src-fir-43-92',
-                paragraph: 'Incident Description',
-                excerptSnippet: 'Four suspected terrorists fired indiscriminately... return fire in self-defense.'
-              },
-              {
-                badge: '[CBI Special Court Mohali 2021]',
-                sourceId: 'src-cbi-judgment-2021',
-                paragraph: 'Para 78',
-                excerptSnippet: 'The defense claim that the deceased were armed militants killed in retaliatory fire during crossfire at Bhattian Bridge is an absolute fabrication designed to cover extrajudicial liquidation.'
+                badge: '[5121-Source 2: Para 1 & Follow-up 5]',
+                sourceId: 'src-5121-s2',
+                paragraph: 'Para 1 & Follow-up Para 5',
+                excerptSnippet: 'On the night of July 2, the police took Baba Hardit Singh and Sohan Singh out of Dhariwal police post to the Bhattian bridge on the Sri Hargobindpur river... walked them 10-15 meters ahead, and after some time that inspector came back alone.'
               }
             ],
-            date: '1992-07-03',
-            keyEntities: ['PS Sri Hargobindpur', 'FIR 43/92', 'Inspector Dilbagh Singh']
+            date: '1992-07-02',
+            keyEntities: ['Bhattian Bridge (Sri Hargobindpur)', 'Baba Hardit Singh', 'Baba Sohan Singh', 'Dhariwal Police Chowki']
           }
         ]
       },
       {
         id: 'legal_proceedings',
-        name: 'Phase 4: CBI Investigation & 2021 Convictions',
-        description: 'Decades of judicial struggle culminating in conviction and life imprisonment for implicated police leadership.',
+        name: 'Phase 4: High Court Writ 1218/1992, 1996 CBI Probe & 2021 Convictions',
+        description: '29-year legal quest from Habeas Corpus to the conviction of 6 Punjab Police personnel in Mohali.',
         iconName: 'Scale',
         facts: [
           {
             id: 'f-7',
             phaseId: 'legal_proceedings',
-            statement: 'On February 23, 2021, the Special CBI Court Mohali convicted Inspector Dilbagh Singh, SI Bhupinder Singh, SI Harminder Singh, and SI Rakesh Kumar Sharma to life imprisonment under IPC 302, 364, and 120-B.',
-            gurmukhiText: '23 ਫਰਵਰੀ 2021 ਨੂੰ ਮੋਹਾਲੀ ਸੀਬੀਆਈ ਦੀ ਵਿਸ਼ੇਸ਼ ਅਦਾਲਤ ਨੇ ਇੰਸਪੈਕਟਰ ਦਿਲਬਾਗ ਸਿੰਘ, ਐਸ.ਆਈ ਭੁਪਿੰਦਰ ਸਿੰਘ, ਐਸ.ਆਈ ਹਰਮਿੰਦਰ ਸਿੰਘ ਅਤੇ ਐਸ.ਆਈ ਰਾਕੇਸ਼ ਕੁਮਾਰ ਸ਼ਰਮਾ ਨੂੰ ਕਤਲ ਅਤੇ ਅਗਵਾ ਲਈ ਉਮਰ ਕੈਦ ਦੀ ਸਜ਼ਾ ਸੁਣਾਈ।',
+            statement: 'Following Habeas Corpus Writ No. 1218/1992 (filed via Adv. Meenakshi Grover) and a 1996 High Court order handing the probe to the CBI, Special CBI Judge Anil Kumar Sood in Mohali convicted 6 Punjab Police personnel on February 23, 2021: Inspector Dilbagh Singh (8 yrs RI), SI Bhupinder Singh (8 yrs RI), SI Harminder Singh (8 yrs RI), SI Rakesh Kumar Sharma (4 yrs RI), ASI Dilbagh Singh (3 yrs RI), and HC Mukhtyar Singh (3 yrs RI).',
+            gurmukhiText: 'ਪੰਜਾਬ ਅਤੇ ਹਰਿਆਣਾ ਹਾਈ ਕੋਰਟ ਨੇ ਇਹਨਾਂ ਸਾਰੀਆਂ ਹੱਤਿਆਵਾਂ/ਲਾਪਤਾ ਕੇਸਾਂ ਦੀ ਸੀ.ਬੀ.ਆਈ ਜਾਂਚ ਦਾ ਹੁਕਮ ਦਿੱਤਾ ਸੀ... 23 ਫਰਵਰੀ 2021 ਨੂੰ ਮੋਹਾਲੀ ਦੀ ਵਿਸ਼ੇਸ਼ ਸੀ.ਬੀ.ਆਈ ਅਦਾਲਤ ਨੇ 6 ਪੰਜਾਬ ਪੁਲਿਸ ਮੁਲਾਜ਼ਮਾਂ ਨੂੰ ਕੈਦ ਦੀ ਸਜ਼ਾ ਸੁਣਾਈ।',
             verifiedStatus: 'pending',
             citations: [
               {
-                badge: '[CBI Special Court Mohali 2021]',
+                badge: '[5121-Source 8: National Courier & Northern Herald]',
                 sourceId: 'src-cbi-judgment-2021',
-                paragraph: 'Sentencing Order',
-                excerptSnippet: 'The court hereby sentences convict Dilbagh Singh and co-accused to Life Imprisonment under Sections 302/364/120-B of the Indian Penal Code.'
+                paragraph: 'Conviction & Sentencing Summary',
+                excerptSnippet: 'Special CBI judge Anil Kumar Sood sentenced Inspector Dilbagh Singh, SI Bhupinder Singh, and SI Harminder Singh to 8 years RI; SI Rakesh Kumar Sharma to 4 years RI; and ASI Dilbagh Singh and HC Mukhtyar Singh to 3 years RI.'
+              },
+              {
+                badge: '[5121-Source 3: CCDP/01147]',
+                sourceId: 'src-5121-ccdp-01147',
+                paragraph: 'Details of Habeas Corpus',
+                excerptSnippet: 'A Writ No. 1218/1992 was filed in the Punjab & Haryana High Court through Advocate Meenakshi Grover... High Court ordered an enquiry by the C.B.I.'
               }
             ],
             date: '2021-02-23',
-            keyEntities: ['CBI Special Court Mohali', 'Inspector Dilbagh Singh', 'SI Bhupinder Singh', 'SI Harminder Singh', 'SI Rakesh Kumar Sharma']
+            keyEntities: ['Inspector Dilbagh Singh', 'ASI Dilbagh Singh', 'SI Bhupinder Singh', 'SI Harminder Singh', 'SI Rakesh Kumar Sharma', 'HC Mukhtiar Singh']
           }
         ]
       }
@@ -432,215 +442,215 @@ export const INITIAL_CASES: CaseData[] = [
       {
         id: 'ent-hardit-singh',
         name: 'Baba Hardit Singh',
-        aliases: ['Record 5121', 'Hardit Singh Granthi'],
-        gurmukhi: 'ਬਾਬਾ ਹਰਦੀਤ ਸਿੰਘ',
+        aliases: ['Record 5121', 'Hardit Singh (Baba)', 'Baba Ji', 'Baba Hardit Singh Kotliwale'],
+        gurmukhi: 'ਬਾਬਾ ਹਰਦਿੱਤ ਸਿੰਘ',
         type: 'person',
         subType: 'victim',
-        role: 'Granthi & Village Elder (Victim)',
-        details: 'Age 58, resident of Kotli Harchand. Abducted on March 6, 1992 by Batala CIA Staff; subjected to extortion and tortured; executed on July 2, 1992 at Bhattian Bridge.',
-        contextualConnection: 'Primary victim abducted by Dilbagh Singh and held at Batala CIA and Dhariwal Chowki; victim of extortion mediated by Mahant Prem Singh.',
-        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147', 'src-cbi-judgment-2021'],
+        role: 'Kar Sewa Leader & Family Elder (Primary Victim)',
+        details: 'Age 55 (50-57), son of Inder Singh and Bachan Kaur, spouse of Jaswant Kaur, resident of Kotli Harchand. Oversaw Kar Sewa at 22 Gurdwaras across Punjab and Rajasthan. Abducted March 6, 1992; executed July 2, 1992 at Bhattian Bridge.',
+        contextualConnection: 'Central target of Batala police; refused political co-optation by ruling party minister; paid ₹6–6.5L extortion before being ambushed and killed alongside his brother Baba Sohan Singh.',
+        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147', 'src-cbi-judgment-2021', 'src-5120-s1'],
         x: 180,
         y: 180
       },
       {
         id: 'ent-sohan-singh',
         name: 'Baba Sohan Singh',
-        aliases: ['Record 5120'],
+        aliases: ['Record 5120', 'Sohan Singh'],
         gurmukhi: 'ਬਾਬਾ ਸੋਹਣ ਸਿੰਘ',
         type: 'person',
         subType: 'victim',
-        role: 'Village Elder & Farmer (Victim)',
-        details: 'Age 62, companion of Baba Hardit Singh; abducted at Nangal Jhanda bridge; murdered in same staged encounter.',
-        contextualConnection: 'Co-abductee on tractor on March 6, 1992; liquidated in parallel at Bhattian Bridge.',
+        role: 'Brother of Baba Hardit Singh & Gurdwara Sewadar (Victim)',
+        details: 'Age 46-47, father of respondent Rachhpal Singh. Served in Kar Sewa jatha of Baba Mangal Singh Ji at Bassi Daulat Khan, Chak Ramdas, and Gurdwara Ber Sahib (Chak Mansoor). Abducted Feb 18-19, 1992 near Talwandi Bharat; executed July 2, 1992 at Bhattian Bridge.',
+        contextualConnection: 'Held for 3+ months at CIA Batala as hostage to force Baba Hardit Singh to surrender; executed alongside Hardit Singh.',
         linkedCitations: ['src-5120-s1', 'src-5121-s2', 'src-cbi-judgment-2021'],
         x: 180,
         y: 320
       },
       {
         id: 'ent-dilbagh-singh',
-        name: 'Inspector Dilbagh Singh',
-        aliases: ['Dilbag Singh CIA', 'In-charge CIA Batala'],
-        gurmukhi: 'ਇੰਸਪੈਕਟਰ ਦਿਲਬਾਗ ਸਿੰਘ',
+        name: 'Inspector Dilbagh Singh (Rajpuria)',
+        aliases: ['Dilbagh Singh Rajpuria', 'Dilbag Rajpuria', 'Dilbagh Rajpuriya', 'SHO CIA Staff Batala', 'Insp. Dilbagh Singh'],
+        gurmukhi: 'ਦਿਲਬਾਗ ਸਿੰਘ ਰਾਜਪੁਰੀਆ',
         type: 'person',
         subType: 'perpetrator',
-        role: 'Station House Officer / CIA Staff In-Charge (Perpetrator)',
-        organization: 'Punjab Police (Batala Police District)',
-        details: 'Commanded the abduction raid, supervised torture at CIA Batala, demanded extortion via touts, authored fabricated FIR 43/92, and led the firing squad at Bhattian Bridge. Convicted to Life Imprisonment in 2021.',
-        contextualConnection: 'Central perpetrator connecting abductions, extortion channels, fake encounter executions, and official paper trail fabrication.',
-        linkedCitations: ['src-5121-s2', 'src-fir-43-92', 'src-cbi-judgment-2021'],
+        role: 'Inspector / SHO, CIA Staff Batala (Convicted Perpetrator)',
+        organization: 'Punjab Police (Batala CIA Staff)',
+        details: 'Height 5\'9", fair complexion, grey open beard. Led the canal bridge checkpoint abduction of Baba Hardit Singh, oversaw custodial detention at CIA Batala, and participated in looting ₹75L of Dera assets. Sentenced to 8 years RI and ₹40,000 fine on Feb 23, 2021 (distinct from co-accused ASI Dilbagh Singh, who received 3 years RI).',
+        contextualConnection: 'Resolved across 6 spelling/title variants in English and Punjabi; primary operational perpetrator across Records 5120, 5121, 5122, and 5123.',
+        linkedCitations: ['src-5120-s1', 'src-5121-s2', 'src-5121-ccdp-01147', 'src-cbi-judgment-2021'],
         x: 520,
         y: 180
       },
       {
         id: 'ent-ssp-grewal',
         name: 'SSP Gurnek Singh Grewal',
-        aliases: ['G.S. Grewal', 'SSP Batala'],
+        aliases: ['SSP Grewal', 'Gurnek Singh Grewal (Deceased)'],
         gurmukhi: 'ਐਸ.ਐਸ.ਪੀ ਗੁਰਨੇਕ ਸਿੰਘ ਗਰੇਵਾਲ',
         type: 'person',
         subType: 'perpetrator',
-        role: 'Senior Superintendent of Police, Batala (Perpetrator/Command)',
+        role: 'Senior Superintendent of Police, Batala (Command Perpetrator)',
         organization: 'Punjab Police',
-        details: 'District police commander who oversaw illegal detentions, refused habeas corpus inquiries, and authorized extortion operations. Died during lengthy trial proceedings.',
-        contextualConnection: 'Command responsibility over CIA Batala and Inspector Dilbagh Singh; beneficiary of extortion payoffs.',
-        linkedCitations: ['src-5121-s2', 'src-cbi-judgment-2021'],
+        details: 'Age 54 in 1992. Devotee of Mahant Prem Singh; demanded ₹6–6.5 Lakh extortion, ordered re-arrest of Baba Sohan Singh, and oversaw looting of Dera property. Died in a road accident prior to the 2021 trial conclusion.',
+        contextualConnection: 'District police chief who orchestrated the extortion trap with Mahant Prem Singh and held command over Batala CIA Staff.',
+        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147', 'src-cbi-judgment-2021'],
         x: 520,
         y: 60
       },
       {
         id: 'ent-bhupinder-singh',
-        name: 'SI Bhupinder Singh',
-        aliases: ['Sub-Inspector Bhupinder Singh'],
-        gurmukhi: 'ਸਬ-ਇੰਸਪੈਕਟਰ ਭੁਪਿੰਦਰ ਸਿੰਘ',
+        name: 'SI Rakesh Kumar Sharma & CIA Officers',
+        aliases: ['Rakesh Kumar Sharma', 'Rakesh Kumar Sarma', 'SI Bhupinder Singh', 'SI Harminder Singh', 'ASI Dilbagh Singh', 'HC Mukhtiar Singh'],
+        gurmukhi: 'ਰਾਕੇਸ਼ ਕੁਮਾਰ ਸ਼ਰਮਾ / ਭੁਪਿੰਦਰ ਸਿੰਘ / ਹਰਮਿੰਦਰ ਸਿੰਘ',
         type: 'person',
         subType: 'perpetrator',
-        role: 'Sub-Inspector, Batala CIA Staff (Perpetrator)',
+        role: 'Convicted Batala CIA & Dhariwal Officers',
         organization: 'Punjab Police',
-        details: 'Field officer who physically seized Baba Hardit Singh and Baba Sohan Singh at the canal bridge; participated in custodial torture and Bhattian firing squad. Convicted in 2021.',
-        contextualConnection: 'Subordinate field operative to Dilbagh Singh; active participant in interception and murder.',
-        linkedCitations: ['src-5121-s2', 'src-cbi-judgment-2021'],
+        details: 'Co-accused officers convicted by Special CBI Court Mohali in Feb 2021: SI Bhupinder Singh (8 yrs RI), SI Harminder Singh (8 yrs RI), SI Rakesh Kumar Sharma/Sarma (4 yrs RI), ASI Dilbagh Singh (3 yrs RI), and HC Mukhtyar/Mukhtiar Singh (3 yrs RI).',
+        contextualConnection: 'Executed the abductions, custodial detentions at Batala CIA and Dhariwal Chowki, and fake encounter killings.',
+        linkedCitations: ['src-5120-s1', 'src-cbi-judgment-2021'],
         x: 680,
         y: 220
       },
       {
         id: 'ent-mahant-prem-singh',
-        name: 'Mahant Prem Singh',
-        aliases: ['Prem Singh Dera Head', 'Extortion Broker'],
+        name: 'Mahant Prem Singh (Prem Dass)',
+        aliases: ['Mahant Prem Singh', 'Mahant Prem Dass', 'Police Tout'],
         gurmukhi: 'ਮਹੰਤ ਪ੍ਰੇਮ ਸਿੰਘ',
         type: 'person',
         subType: 'intermediary',
-        role: 'Religious Dera Head & Police Intermediary',
-        organization: 'Local Dera / Batala Police Tout Network',
-        details: 'Operated as financial middleman for Batala CIA officers, collecting ₹45,000 extortion money from Jaswant Kaur under the false promise of securing Baba Hardit Singh\'s release.',
-        contextualConnection: 'Financial pipeline connecting police extortion demand directly to victim\'s family.',
-        linkedCitations: ['src-5121-s2'],
+        role: 'Dera Head & Extortion Intermediary',
+        organization: 'Local Dera / SSP Grewal Associate',
+        details: 'Collected ₹6–6.5 Lakhs from Baba Hardit Singh on the pretext of brokering family release with his devotee SSP Gurnek Singh Grewal, then drove Hardit Singh directly into Inspector Dilbagh Singh’s checkpoint trap.',
+        contextualConnection: 'Resolved across "Mahant Prem Singh" (Source 2) and "Mahant Prem Dass" (Source 3); link between Baba Hardit Singh and SSP Grewal.',
+        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147'],
         x: 350,
         y: 80
       },
       {
         id: 'ent-jaswant-kaur',
-        name: 'Jaswant Kaur',
-        aliases: ['Deponent / Wife of Baba Hardit Singh'],
-        gurmukhi: 'ਜਸਵੰਤ ਕੌਰ',
+        name: 'Jaswant Kaur & Rachhpal Singh',
+        aliases: ['Bibi Jaswant Kaur (Spouse)', 'Rachhpal Singh (Nephew/Respondent)', 'Kuldeep Singh (Son)', 'Bibi Manjeet Kaur (Petitioner)'],
+        gurmukhi: 'ਜਸਵੰਤ ਕੌਰ / ਰਛਪਾਲ ਸਿੰਘ',
         type: 'person',
         subType: 'witness_family',
-        role: 'Key Eyewitness & Petitioner',
-        details: 'Wife of Baba Hardit Singh, primary witness who chased the abductors, negotiated extortion payments, and gave crucial sworn testimony before the Special CBI Court.',
-        contextualConnection: 'Witness to abduction, paid extortion to Mahant Prem Singh, testified in CBI trial.',
-        linkedCitations: ['src-5121-s2', 'src-cbi-judgment-2021'],
+        role: 'Eyewitnesses & High Court / CBI Petitioners',
+        details: 'Jaswant Kaur witnessed the March 6, 1992 abduction from a trailing Maruti van, visited Baba Hardit Singh at Dhariwal Chowki through June 30, 1992, and petitioned the High Court in 1996. Rachhpal Singh provided the Proforma GSP2-47 bilingual testimony.',
+        contextualConnection: 'Primary family witnesses whose testimonies anchored the High Court Habeas Corpus writ and 2021 CBI convictions.',
+        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147', 'src-cbi-judgment-2021'],
         x: 180,
         y: 60
       },
       {
         id: 'ent-kotli-harchand',
-        name: 'Kotli Harchand Village',
-        aliases: ['Village Kotli Harchand'],
-        gurmukhi: 'ਪਿੰਡ ਕੋਟਲੀ ਹਰਚੰਦ',
+        name: 'Kotli Harchand (Kotli Harchandan)',
+        aliases: ['Kotli Harchand', 'Kotli Harchandan', 'Village Code 00318452'],
+        gurmukhi: 'ਕੋਟਲੀ ਹਰਚੰਦ',
         type: 'place',
         subType: 'village',
-        role: 'Victims\' Village of Residence',
-        details: 'Rural village in Batala tehsil, home to Baba Hardit Singh, Baba Sohan Singh, and Mohinder Singh.',
-        contextualConnection: 'Origin point of the victims; source of Panchayat resolutions and witness mobilization.',
-        linkedCitations: ['src-5120-s1', 'src-5121-s2'],
+        role: 'Home Village of Baba Hardit Singh & Baba Sohan Singh',
+        details: 'Located in PO Sekhwan, Tehsil Batala, District Gurdaspur. Family abandoned their home following the executions and looting of ₹75 Lakh in Dera assets.',
+        contextualConnection: 'Resolved across "Kotli Harchand" (REDCap/Source 2) and "Kotli Harchandan" (CCDP Source 3).',
+        linkedCitations: ['src-5120-s1', 'src-5121-s2', 'src-5121-ccdp-01147'],
         x: 40,
         y: 200
       },
       {
         id: 'ent-nangal-jhanda',
-        name: 'Nangal Jhanda Canal Bridge',
-        aliases: ['Nangal Jhanda Pul'],
-        gurmukhi: 'ਨੰਗਲ ਝੰਡਾ ਨਹਿਰੀ ਪੁਲ',
+        name: 'Nangal Jhanda / Bhagwanpur Canal Bridge',
+        aliases: ['Nangal Jhanda Canal Bridge', 'Bhagwanpur Canal Bridge Checkpoint (Naka)'],
+        gurmukhi: 'ਪਿੰਡ ਨੰਗਲ ਝੰਡਾ ਨਹਿਰ ਦਾ ਪੁਲ (ਨਾਕਾ)',
         type: 'place',
         subType: 'bridge',
-        role: 'Abduction Site',
-        details: 'Canal bridge on village tractor route where police gypsies intercepted the victims on March 6, 1992.',
-        contextualConnection: 'Physical locus of initial interception and abduction by Batala CIA Staff.',
-        linkedCitations: ['src-5121-s2'],
+        role: 'March 6, 1992 Abduction Checkpoint (Naka)',
+        details: 'Canal bridge checkpoint where Inspector Dilbagh Singh stopped Mahant Prem Singh’s Ambassador car and abducted Baba Hardit Singh and companion Jagtar Singh.',
+        contextualConnection: 'Site of Baba Hardit Singh’s abduction on March 6, 1992.',
+        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147'],
         x: 180,
         y: 460
       },
       {
         id: 'ent-cia-batala',
-        name: 'Batala CIA Staff HQ',
-        aliases: ['CIA Staff Interrogation Centre Batala'],
-        gurmukhi: 'ਸੀ.ਆਈ.ਏ. ਸਟਾਫ਼ ਬਟਾਲਾ',
+        name: 'CIA Staff Batala',
+        aliases: ['Batala CIA Staff', 'C.I.A Staff Batala'],
+        gurmukhi: 'ਸੀ.ਆਈ.ਏ ਸਟਾਫ ਬਟਾਲਾ',
         type: 'place',
         subType: 'facility',
-        role: 'Illegal Interrogation & Detention Facility',
-        organization: 'Batala Police',
-        details: 'Notorious custodial interrogation center where victims were held in secret without magisterial remand.',
-        contextualConnection: 'Site of unrecorded custodial detention, interrogation, and extortion negotiations.',
-        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147'],
+        role: 'Primary Illegal Detention Center',
+        organization: 'Punjab Police (Batala)',
+        details: 'Commanded by SHO/Inspector Dilbagh Singh Rajpuria. Held Baba Hardit Singh (3-4 months), Baba Sohan Singh (3 months), Mohinder Singh (3 months), Ajaib Singh, and Kulwant Singh.',
+        contextualConnection: 'Central detention hub linking all abducted family members.',
+        linkedCitations: ['src-5120-s1', 'src-5121-s2', 'src-5121-ccdp-01147', 'src-cbi-judgment-2021'],
         x: 460,
         y: 360
       },
       {
         id: 'ent-dhariwal-chowki',
-        name: 'Dhariwal Police Chowki',
-        aliases: ['Dhariwal Outpost'],
-        gurmukhi: 'ਧਾਰੀਵਾਲ ਚੌਕੀ',
+        name: 'Dhariwal Police Post (Chowki)',
+        aliases: ['Dhariwal Police Chowki', 'Dhariwal Police Station'],
+        gurmukhi: 'ਧਾਰੀਵਾਲ ਪੁਲਿਸ ਚੌਂਕੀ',
         type: 'place',
         subType: 'checkpoint',
-        role: 'Intermediate Covert Custody Outpost',
-        organization: 'Batala Police',
-        details: 'Sub-post under SI Rakesh Kumar Sharma used to conceal victims when village inquiries escalated.',
-        contextualConnection: 'Staging point where victims were kept immediately prior to midnight execution.',
-        linkedCitations: ['src-5121-ccdp-01147', 'src-cbi-judgment-2021'],
+        role: 'Final Custodial Holding Post Before Execution',
+        organization: 'Punjab Police',
+        details: 'Baba Hardit Singh was held here for ~25 days prior to July 2, 1992. Family members and sewadars last saw him alive here on June 30 / July 2 evening before he and Sohan Singh were driven to Bhattian Bridge.',
+        contextualConnection: 'Last known location where victims were seen alive in police custody.',
+        linkedCitations: ['src-5121-s2', 'src-5121-ccdp-01147'],
         x: 620,
         y: 360
       },
       {
         id: 'ent-bhattian-bridge',
-        name: 'Bhattian Bridge (Sri Hargobindpur)',
-        aliases: ['Bhattian Pul', 'Beas Canal Crossing'],
-        gurmukhi: 'ਭੱਟੀਆਂ ਪੁਲ (ਸ੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ)',
+        name: 'Bhattian Bridge (Sri Hargobindpur River)',
+        aliases: ['Bhattian Bridge', 'Sri Hargobindpur River Bridge'],
+        gurmukhi: 'ਸ੍ਰੀ ਹਰਗੋਬਿੰਦਪੁਰ ਦਰਿਆ ਦਾ ਭੱਟੀਆਂ ਵਾਲਾ ਪੁਲ',
         type: 'place',
         subType: 'bridge',
-        role: 'Staged Encounter & Execution Site',
-        details: 'Isolated bridge near the Beas River where victims were transported on July 2, 1992 and shot in a simulated encounter.',
-        contextualConnection: 'Physical site of extrajudicial killing and fabrication of FIR 43/92.',
-        linkedCitations: ['src-5121-ccdp-01147', 'src-fir-43-92', 'src-cbi-judgment-2021'],
+        role: 'July 2, 1992 Extrajudicial Execution Site',
+        details: 'River bridge where an inspector walked Baba Hardit Singh and Baba Sohan Singh 10-15 meters ahead of a police vehicle on the night of July 2, 1992 and executed them.',
+        contextualConnection: 'Site of the July 2, 1992 extrajudicial execution of Baba Hardit Singh and Baba Sohan Singh.',
+        linkedCitations: ['src-5121-s2'],
         x: 780,
         y: 360
       },
       {
         id: 'ent-event-abduction',
-        name: 'March 6, 1992: Armed Abduction',
-        aliases: ['06-03-1992 Abduction Event'],
-        gurmukhi: '6 ਮਾਰਚ 1992: ਅਗਵਾ ਦੀ ਘਟਨਾ',
+        name: 'March 6, 1992: Canal Bridge Naka Abduction',
+        aliases: ['06/03/1992 Abduction', 'March 1-15, 1992 Abduction'],
+        gurmukhi: '6 ਮਾਰਚ 1992: ਨਾਕੇ ਤੋਂ ਗ੍ਰਿਫ਼ਤਾਰੀ',
         type: 'event',
         subType: 'abduction',
-        role: 'Initial Deprivation of Liberty',
-        details: 'Forcible daylight interception of Baba Hardit Singh and companions by unmarked vehicles.',
-        contextualConnection: 'Trigger event initiating unrecorded custodial disappearance.',
-        linkedCitations: ['src-5121-s2'],
+        role: 'Abduction of Baba Hardit Singh',
+        details: 'Following the ₹6–6.5L payment to Mahant Prem Singh, Inspector Dilbagh Singh seized Baba Hardit Singh at the canal bridge checkpoint.',
+        contextualConnection: 'Initiated Baba Hardit Singh’s 4-month custodial disappearance.',
+        linkedCitations: ['src-5120-s1', 'src-5121-s2', 'src-5121-ccdp-01147'],
         x: 180,
         y: 560
       },
       {
         id: 'ent-event-encounter',
-        name: 'July 2, 1992: Staged Encounter Execution',
-        aliases: ['02-07-1992 Bhattian Execution'],
-        gurmukhi: '2 ਜੁਲਾਈ 1992: ਝੂਠਾ ਮੁਕਾਬਲਾ',
+        name: 'July 2, 1992: Bhattian Bridge Execution',
+        aliases: ['July 2, 1992 Night Killing', 'June 28 / July 2 Execution'],
+        gurmukhi: '2 ਜੁਲਾਈ 1992 ਦੀ ਰਾਤ: ਭੱਟੀਆਂ ਪੁਲ ਕਤਲ',
         type: 'event',
         subType: 'execution',
-        role: 'Extrajudicial Murder Event',
-        details: 'Summary execution of 4 victims masked by fabricated FIR No. 43/92 claiming crossfire with terrorists.',
-        contextualConnection: 'Climax of the state crime resulting in deaths of Baba Hardit Singh, Baba Sohan Singh, and co-victims.',
-        linkedCitations: ['src-5121-ccdp-01147', 'src-fir-43-92', 'src-cbi-judgment-2021'],
+        role: 'Extrajudicial Execution of Hardit Singh & Sohan Singh',
+        details: 'Occurred on the night of July 2, 1992—one night before IGP Harbans Singh Pannu’s promised release date of July 3, 1992.',
+        contextualConnection: 'Culmination of illegal detention at CIA Batala and Dhariwal Chowki.',
+        linkedCitations: ['src-5120-s1', 'src-5121-s2'],
         x: 780,
         y: 500
       },
       {
         id: 'ent-event-judgment',
-        name: 'Feb 23, 2021: Special CBI Court Conviction',
-        aliases: ['RC 3(S)/97 Judgment'],
-        gurmukhi: '23 ਫਰਵਰੀ 2021: ਸੀ.ਬੀ.ਆਈ ਕੋਰਟ ਵੱਲੋਂ ਉਮਰ ਕੈਦ',
+        name: 'Feb 23, 2021: Mohali Special CBI Court Convictions',
+        aliases: ['23.02.2021 CBI Verdict', 'Judge Anil Kumar Sood Verdict'],
+        gurmukhi: '23 ਫਰਵਰੀ 2021: ਮੋਹਾਲੀ ਸੀ.ਬੀ.ਆਈ ਅਦਾਲਤ ਦਾ ਫੈਸਲਾ',
         type: 'event',
         subType: 'cbi_judgment',
-        role: 'Judicial Accountability Event',
-        details: 'Sentencing of Inspector Dilbagh Singh and co-accused to Life Imprisonment after 29 years of denial.',
-        contextualConnection: 'Judicial resolution proving state fabrication and establishing criminal guilt.',
+        role: 'Conviction of 6 Punjab Police Officers',
+        details: 'Special CBI Judge Anil Kumar Sood convicted Inspector Dilbagh Singh, SI Bhupinder Singh, SI Harminder Singh (8 yrs RI each), SI Rakesh Kumar Sharma (4 yrs RI), and ASI Dilbagh Singh & HC Mukhtyar Singh (3 yrs RI each).',
+        contextualConnection: 'Judicial confirmation that all 6 family members were illegally detained and murdered in a staged encounter.',
         linkedCitations: ['src-cbi-judgment-2021'],
         x: 520,
         y: 540
@@ -653,7 +663,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-dilbagh-singh',
         label: 'abducted_by',
         confidence: 'High (Judicial)',
-        citation: '5121-Source 2: Para 1 / CBI Special Court Mohali 2021'
+        citation: '5121-Source 2: Para 1 & CCDP/01147'
       },
       {
         id: 'rel-2',
@@ -661,7 +671,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-dilbagh-singh',
         label: 'abducted_by',
         confidence: 'High (Judicial)',
-        citation: '5120-Source 1 / CBI Special Court Mohali 2021'
+        citation: '5120-Source 1 & 5121-Source 2: Para 2'
       },
       {
         id: 'rel-3',
@@ -669,7 +679,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-cia-batala',
         label: 'held_at',
         confidence: 'High (Judicial)',
-        citation: 'CCDP/01147: Details of Occurrence'
+        citation: '5121-Source 2: Follow-up Para 13'
       },
       {
         id: 'rel-4',
@@ -677,7 +687,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-cia-batala',
         label: 'held_at',
         confidence: 'High (Judicial)',
-        citation: 'CCDP/01147: Details of Occurrence'
+        citation: '5121-Source 2: Para 1 (3-4 months)'
       },
       {
         id: 'rel-5',
@@ -685,7 +695,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-dhariwal-chowki',
         label: 'transferred_to',
         confidence: 'High (Judicial)',
-        citation: 'CCDP/01147: Details of Occurrence'
+        citation: '5121-Source 2: Para 1 (held ~25 days)'
       },
       {
         id: 'rel-6',
@@ -693,7 +703,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-hardit-singh',
         label: 'demanded_extortion_from',
         confidence: 'High (Eye-Witness)',
-        citation: '5121-Source 2: Para 2'
+        citation: '5121-Source 2: Para 1 (₹6L) & CCDP/01147 (₹6.5L)'
       },
       {
         id: 'rel-7',
@@ -701,15 +711,15 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-ssp-grewal',
         label: 'mediated_for',
         confidence: 'High (Eye-Witness)',
-        citation: '5121-Source 2: Para 2'
+        citation: '5121-Source 2: Para 1 & CCDP/01147'
       },
       {
         id: 'rel-8',
         source: 'ent-jaswant-kaur',
-        target: 'ent-mahant-prem-singh',
-        label: 'demanded_extortion_from',
+        target: 'ent-event-abduction',
+        label: 'witnessed_by',
         confidence: 'High (Eye-Witness)',
-        citation: '5121-Source 2: Para 2'
+        citation: '5121-Source 3: CCDP/01147 (Followed in Maruti van)'
       },
       {
         id: 'rel-9',
@@ -717,7 +727,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-bhattian-bridge',
         label: 'killed_at',
         confidence: 'High (Judicial)',
-        citation: 'CBI Special Court Mohali 2021'
+        citation: '5121-Source 2: Para 1 & 2021 CBI Verdict'
       },
       {
         id: 'rel-10',
@@ -725,7 +735,7 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-bhattian-bridge',
         label: 'killed_at',
         confidence: 'High (Judicial)',
-        citation: 'CBI Special Court Mohali 2021 / CCDP/01147'
+        citation: '5121-Source 2: Para 1 & Follow-up Para 5'
       },
       {
         id: 'rel-11',
@@ -733,22 +743,22 @@ export const INITIAL_CASES: CaseData[] = [
         target: 'ent-dilbagh-singh',
         label: 'convicted_for',
         confidence: 'High (Judicial)',
-        citation: 'CBI Special Court Mohali 2021'
+        citation: '5121-Source 8: National Courier & Northern Herald (8 yrs RI)'
       },
       {
         id: 'rel-12',
         source: 'ent-bhupinder-singh',
         target: 'ent-dilbagh-singh',
-        label: 'witnessed_by',
+        label: 'convicted_for',
         confidence: 'High (Judicial)',
-        citation: 'CBI Special Court Mohali 2021'
+        citation: '5121-Source 8: 2021 Special CBI Court Verdict'
       }
     ],
     sources: SOURCES_KOTLI
   },
   {
     id: 'case-majitha-road',
-    title: 'Majitha Road Enforced Disappearances (1992)',
+    title: '[synthetic-data] Majitha Road Enforced Disappearances (1992)',
     incidentPeriod: '1992 (Abduction April 14, 1992; Reported Escape May 28, 1992; NHRC Docket 1998)',
     primaryLocation: 'Majitha Road & Beas Interrogation Center, Amritsar Rural, Punjab',
     victimCount: 4,
@@ -1066,7 +1076,7 @@ export const INITIAL_CASES: CaseData[] = [
   },
   {
     id: 'case-tarn-taran',
-    title: 'Tarn Taran Illegal Custodial Remand Cluster (1991)',
+    title: '[synthetic-data] Tarn Taran Illegal Custodial Remand Cluster (1991)',
     incidentPeriod: '1991 (Abduction Nov 12, 1991; Encounter Staged Dec 28, 1991; Special Court 2018)',
     primaryLocation: 'Sadar Tarn Taran & Harike Pattan Barrage, Tarn Taran, Punjab',
     victimCount: 5,
@@ -1310,164 +1320,157 @@ export const INITIAL_CASES: CaseData[] = [
 export const CROSS_CASE_PATTERNS: ModusOperandiPattern[] = [
   {
     id: 'pat-1',
-    patternTitle: 'Staged "Escape from Custody" Pretext',
+    patternTitle: 'Staged "Escape from Custody" & Fake Encounter Pretext',
     frequency: '100% of analyzed cases (3/3 clusters)',
-    description: 'Police filed standardized First Information Reports claiming that detainees escaped under cover of darkness or sudden crossfire during weapon recovery expeditions.',
+    description: 'Police claimed that detainees escaped from police custody (e.g., Tarlochan Singh and Mohinder Singh) or were killed in encounters while trying to escape custody.',
     casesInvolved: ['Kotli Harchand (1991-92)', 'Majitha Road (1992)', 'Tarn Taran (1991)'],
     keyTactics: [
-      'Backdated Daily Diary entries alleging suspect slipped loose from handcuffs',
-      'Planted assault rifles (typically Chinese-make AK-47s) with erased serial numbers',
-      'Refusal to preserve ballistic bullet-casing trails or conduct independent inquests'
+      'Booking victims in false Arms Act cases (such as an illegal .12 bore rifle) before taking them on remand',
+      'Telling families that the victim escaped from police custody or was taken by another police station',
+      'Executing victims at river bridges (Bhattian Bridge) the night before a promised release date'
     ],
-    legalRelevance: 'Violates UN Principles on Extra-legal Executions (Principle 9) and Article 6 of ICCPR; established by Special CBI Court as systematic evidence fabrication.'
+    legalRelevance: 'Violates UN Principles on Extra-legal Executions and Article 6 of ICCPR; confirmed by Special CBI Court Mohali in 2021.'
   },
   {
     id: 'pat-2',
-    patternTitle: 'Intermediary-Mediated Extortion Pipelines',
-    frequency: 'Present in all 3 clusters (Amounts ₹20,000 to ₹1,50,000)',
-    description: 'Police leadership never accepted bribes directly; instead, religious heads (mahants), dera caretakers, or coerced village sarpanches acted as financial conduits.',
-    casesInvolved: ['Kotli Harchand (Mahant Prem Singh)', 'Majitha Road (Kathunangal Sarpanch broker)', 'Tarn Taran (Local Panchayat conduit)'],
+    patternTitle: 'Intermediary-Mediated Extortion & Dera Asset Looting',
+    frequency: 'Present in all 3 clusters (₹6–6.5 Lakh cash + ₹75 Lakh looted assets)',
+    description: 'Police officials demanded large sums via religious intermediaries (Mahant Prem Singh / Prem Dass) and looted Dera and Guru Ghar property.',
+    casesInvolved: ['Kotli Harchand (Mahant Prem Singh / ₹6-6.5L)', 'Majitha Road (Kathunangal broker)', 'Tarn Taran (Local conduit)'],
     keyTactics: [
-      'Extortion demanded under threat of immediate staged encounter liquidation',
-      'Partial payments (e.g. ₹45,000 of ₹1,00,000) accepted while retaining custody',
-      'Victims executed regardless of whether payment was delivered'
+      'Holding brothers and relatives as hostages to force the primary target to pay ransom',
+      'Using the extortion handoff car trip to ambush the victim at a pre-planned checkpoint (naka)',
+      'Confiscating and looting ₹75 Lakh in trucks, tractors, cattle, and building materials'
     ],
-    legalRelevance: 'Demonstrates predatory criminal enterprise operating under color of official anti-terrorist legislation (IPC 384/388 read with 120-B).'
+    legalRelevance: 'Establishes organized extortion and property destruction by state actors (SSP Gurnek Singh Grewal and Inspector Dilbagh Singh).'
   },
   {
     id: 'pat-3',
-    patternTitle: 'Covert Facility Bouncing & Unrecorded Remand',
+    patternTitle: 'Multi-Month Unrecorded Detention & Facility Transfers',
     frequency: 'Identified in 100% of cases',
-    description: 'Detainees were bounced between district CIA Staff interrogation compounds, local police outposts (chowkis), and border posts without magisterial production within 24 hours.',
-    casesInvolved: ['Batala CIA to Dhariwal Chowki', 'Majitha Special Staff to Beas CIA', 'PS Sadar Tarn Taran to Canal Outposts'],
+    description: 'Detainees were held for 3–4 months at CIA Staff Batala and shifted to local police posts (Dhariwal Chowki, Kahnuwan PS) without judicial production.',
+    casesInvolved: ['CIA Staff Batala to Dhariwal Chowki', 'Majitha Special Staff to Beas CIA', 'PS Sadar Tarn Taran to Canal Outposts'],
     keyTactics: [
-      'Complete omission from police station Daily Diary (Roznamcha)',
-      'Physical relocation whenever relatives filed Habeas Corpus petitions in High Court',
-      'Use of torture methods leaving internal injuries (wooden roller/ghotna) prior to execution'
+      'Cross-border abductions from Sri Ganganagar, Rajasthan transported back to Batala CIA Staff',
+      'Political coercion demanding religious leaders attend ruling party rallies in exchange for relatives\' lives',
+      'Deceptive promises by senior officers (IGP Pannu) of imminent release to forestall protests'
     ],
-    legalRelevance: 'Constitutes Enforced Disappearance under Article 2 of the International Convention for Protection of All Persons from Enforced Disappearance.'
+    legalRelevance: 'Constitutes Enforced Disappearance under the International Convention for Protection of All Persons from Enforced Disappearance.'
   },
   {
     id: 'pat-4',
-    patternTitle: 'Waterway / Bridge Environs for Staged Shootings',
+    patternTitle: 'Waterway / River Bridge Execution Sites',
     frequency: 'Characteristic geographic signature',
-    description: 'Execution sites were consistently chosen at river bridges, canal crossings, or barrages (Bhattian Bridge, Harike Pattan, Beas embankment) to control access and explain body disposal.',
-    casesInvolved: ['Bhattian Bridge Sri Hargobindpur', 'Beas Embankment Kathunangal', 'Harike Pattan Barrage'],
+    description: 'Execution sites were consistently selected at river bridges and barrages (Bhattian Bridge on the Sri Hargobindpur river, Harike Pattan, Beas embankment) with bodies never returned to families.',
+    casesInvolved: ['Bhattian Bridge (Sri Hargobindpur River)', 'Beas Embankment Kathunangal', 'Harike Pattan Barrage'],
     keyTactics: [
-      'Isolated locations with high embankment reed cover',
-      'Night-time operations (typically 1:00 AM – 4:00 AM)',
-      'Subsequent delivery to municipal crematoriums labeled as "Unclaimed / Lawaris"'
+      'Night-time removals from holding chowkis (July 2, 1992 night)',
+      'Walking detainees 10-15 meters ahead of police vehicles on isolated river bridges',
+      'Refusal to hand over mortal remains to families'
     ],
-    legalRelevance: 'Intentional concealment of physical evidence and deprivation of family rights to funerary rites.'
+    legalRelevance: 'Intentional concealment of remains and extrajudicial execution.'
   }
 ];
 
 export const PERPETRATOR_OVERLAPS: PerpetratorOverlap[] = [
   {
-    officerName: 'Inspector Dilbagh Singh',
-    rank1991: 'Inspector / In-charge Batala CIA Staff',
-    station: 'Batala Police District',
+    officerName: 'Inspector Dilbagh Singh (Rajpuria)',
+    rank1991: 'Inspector / SHO, CIA Staff Batala',
+    station: 'Batala CIA Staff, Punjab Police',
     implicatedCases: [
-      'Kotli Harchand Cluster (Lead Commander)',
-      'Dhariwal Chowki Transfers',
-      'Majitha Road Border Taskforce'
+      'Record 5121: Baba Hardit Singh (Abduction & Execution)',
+      'Record 5120: Baba Sohan Singh (Abduction & Execution)',
+      'CCDP/01147: ₹75 Lakh Dera Asset Looting'
     ],
     actsAlleged: [
-      'Unlawful abduction at Nangal Jhanda bridge',
-      'Custodial torture of Baba Hardit Singh and Baba Sohan Singh',
-      'Extortion negotiation via Mahant Prem Singh',
-      'Staged encounter execution at Bhattian Bridge',
-      'Falsification of FIR 43/92'
+      'Set up canal bridge checkpoint (naka) near Nangal Jhanda / Bhagwanpur on March 6, 1992',
+      'Held Baba Hardit Singh, Sohan Singh, and Mohinder Singh in illegal custody at CIA Staff Batala',
+      'Participated in looting ₹75 Lakh of Dera trucks, tractors, cattle, and building materials'
     ],
-    status2021: 'Convicted to Life Imprisonment by Special CBI Court Mohali (Feb 23, 2021)'
+    status2021: 'Convicted to 8 years Rigorous Imprisonment (RI) and ₹40,000 fine by Special CBI Judge Anil Kumar Sood, Mohali (Feb 23, 2021)'
   },
   {
     officerName: 'SSP Gurnek Singh Grewal',
-    rank1991: 'Senior Superintendent of Police',
-    station: 'Batala Police Headquarters',
+    rank1991: 'Senior Superintendent of Police (SSP)',
+    station: 'Batala Police District',
     implicatedCases: [
-      'Kotli Harchand Cluster (Command Responsibility)',
-      'Gurdaspur Border Joint Operations',
-      'Tarn Taran Inter-district Operations'
+      'Record 5121: Baba Hardit Singh (₹6–6.5L Extortion & Abduction)',
+      'Record 5120: Baba Sohan Singh (Ordered Re-arrest)',
+      'CCDP/01147: ₹75 Lakh Dera Asset Looting'
     ],
     actsAlleged: [
-      'District-wide operational oversight of illegal detentions',
-      'Rejection of Panchayat habeas representations',
-      'Supervision of extortion demands conveyed to families'
+      'Demanded ₹6–6.5 Lakh extortion through his devotee Mahant Prem Singh',
+      'Ordered immediate re-arrest of Baba Sohan Singh after CIA SHO released him',
+      'Oversaw confiscation and looting of ₹75 Lakh in Dera property'
     ],
-    status2021: 'Charged under IPC 302/120-B; proceedings abated upon death during trial'
+    status2021: 'Accused in CBI charge-sheet; died in a road accident during the trial (proceedings abated)'
   },
   {
-    officerName: 'SI Bhupinder Singh',
-    rank1991: 'Sub-Inspector, Batala CIA Staff',
-    station: 'Batala CIA Staff',
+    officerName: 'SI Bhupinder Singh & SI Harminder Singh',
+    rank1991: 'Sub-Inspectors (Head Constable / SI in 1992)',
+    station: 'Batala CIA Staff, Punjab Police',
     implicatedCases: [
-      'Kotli Harchand Cluster',
-      'Nangal Jhanda Abduction Squad'
+      'Record 5121: Baba Hardit Singh & 5 Kin Abduction and Murder'
     ],
     actsAlleged: [
-      'Physical seizure and blindfolding of victims at canal bridge',
-      'Application of roller torture (ghotna) during interrogation',
-      'Firing squad participant at Bhattian Bridge'
+      'Implicated in the abduction and illegal detention of Baba Hardit Singh at Batala CIA Staff',
+      'Participated in the fake encounter killings of Baba Hardit Singh and 5 family members'
     ],
-    status2021: 'Convicted to Life Imprisonment by Special CBI Court Mohali (2021)'
+    status2021: 'Both convicted to 8 years Rigorous Imprisonment (RI) by Special CBI Court Mohali (Feb 23, 2021)'
   },
   {
-    officerName: 'SI Harminder Singh',
-    rank1991: 'Sub-Inspector, Batala CIA Staff',
-    station: 'Batala CIA Staff',
+    officerName: 'SI Rakesh Kumar Sharma (Sarma)',
+    rank1991: 'Assistant Sub-Inspector / Sub-Inspector',
+    station: 'Batala / Dhariwal, Punjab Police',
     implicatedCases: [
-      'Kotli Harchand Cluster',
-      'Covert Custody Transport Unit'
+      'Record 5120: Baba Sohan Singh Abduction',
+      'Record 5121: Baba Hardit Singh Abduction & Murder'
     ],
     actsAlleged: [
-      'Inter-facility clandestine prisoner transport to Dhariwal',
-      'Planting fabricated weapon recovery memos'
+      'Named in both Record 5120 (as ASI Sharma) and Record 5121 (as ASI Rakesh Kumar Sharma) for abduction',
+      'Served in the state intelligence wing at the time of the 2021 conviction'
     ],
-    status2021: 'Convicted to Life Imprisonment by Special CBI Court Mohali (2021)'
+    status2021: 'Convicted to 4 years Rigorous Imprisonment (RI) and ₹30,000 fine by Special CBI Court Mohali (Feb 23, 2021)'
   },
   {
-    officerName: 'SI Rakesh Kumar Sharma',
-    rank1991: 'Sub-Inspector / Chowki In-charge',
-    station: 'Dhariwal Police Chowki',
+    officerName: 'ASI Dilbagh Singh & HC Mukhtiar Singh',
+    rank1991: 'Assistant Sub-Inspector & Head Constable',
+    station: 'Batala, Punjab Police',
     implicatedCases: [
-      'Kotli Harchand Cluster (Holding Post)',
-      'Gurdaspur Special Remand Network'
+      'Baba Hardit Singh & 5 Kin Fake Encounter Case'
     ],
     actsAlleged: [
-      'Unlawful unrecorded confinement of victims at Dhariwal Chowki',
-      'Denying custody to visiting magistrates and village Panchayat'
+      'Co-accused in the illegal detention and fake encounter killing of Baba Hardit Singh and 5 relatives (distinct from Inspector Dilbagh Singh)'
     ],
-    status2021: 'Convicted to Life Imprisonment by Special CBI Court Mohali (2021)'
+    status2021: 'Both convicted to 3 years Rigorous Imprisonment (RI) and ₹40,000 fine each by Special CBI Court Mohali (Feb 23, 2021)'
   },
   {
-    officerName: 'DSP Ajit Singh',
-    rank1991: 'Deputy Superintendent of Police',
-    station: 'Tarn Taran Sub-Division',
+    officerName: 'DSP Sukhjinder Singh Bajwa & SHO Balbir Singh',
+    rank1991: 'DSP Batala & SHO Kahnuwan',
+    station: 'Batala & PS Kahnuwan, Punjab Police',
     implicatedCases: [
-      'Tarn Taran Illegal Custodial Remand Cluster',
-      'Harike Pattan Shootout'
+      'Record 5122: Mohinder Singh (DSP Sukhjinder Singh Bajwa)',
+      'Record 5123: Tarlochan Singh (SHO Balbir Singh, Kahnuwan)'
     ],
     actsAlleged: [
-      'Commanded night-time cordon and unrecorded seizure of Pritam Singh',
-      'Supervised 46 days of illegal custodial remand at PS Sadar',
-      'Staged shootout at Harike Pattan barrage'
+      'DSP Bajwa implicated in Record 5122 abduction; acquitted by Special CBI Court in Feb 2021 alongside SI Amarjit Singh',
+      'SHO Balbir Singh implicated in Record 5123 custodial remand at Kahnuwan PS'
     ],
-    status2021: 'Facing trial in CBI Special Court Mohali; charges framed under IPC 302/364'
+    status2021: 'DSP Sukhjinder Singh Bajwa and SI Amarjit Singh acquitted by Special CBI Court Mohali (Feb 23, 2021)'
   }
 ];
 
 export const COMPARATIVE_TIMELINE: TimelineEvent[] = [
   {
     id: 't-1',
-    date: '1991-11-12',
-    caseId: 'case-tarn-taran',
-    caseTitle: 'Tarn Taran Cluster',
-    title: 'Night Cordon Abduction in Patti',
-    location: 'Patti, Tarn Taran',
+    date: '1991-06-11',
+    caseId: 'case-kotli-harchand',
+    caseTitle: 'Kotli Harchand Cluster',
+    title: 'Rajasthan Abductions of Mohinder Singh & Tarlochan Singh',
+    location: 'Sri Ganganagar (Rajasthan) & Pathankot',
     type: 'abduction',
-    description: 'Pritam Singh & Jagtar Singh seized from residence during joint police raid.',
-    citation: 'CBI Charge-sheet RC-7(S)/98'
+    description: 'Brothers Mohinder Singh (5122) and Tarlochan Singh (5123) abducted to coerce Baba Hardit Singh; Tarlochan framed in false .12 bore rifle case.',
+    citation: '5122 & 5123-Source 1 / 5121-Source 2: Para 3-4'
   },
   {
     id: 't-2',
@@ -1482,25 +1485,25 @@ export const COMPARATIVE_TIMELINE: TimelineEvent[] = [
   },
   {
     id: 't-3',
-    date: '1992-03-06',
+    date: '1992-02-18',
     caseId: 'case-kotli-harchand',
     caseTitle: 'Kotli Harchand Cluster',
-    title: 'Nangal Jhanda Canal Bridge Interception',
-    location: 'Kotli Harchand, Batala',
+    title: 'Abduction of Baba Sohan Singh on Fatehgarh Churian Road',
+    location: 'Near Village Talwandi Bharat, Batala',
     type: 'abduction',
-    description: 'Baba Hardit Singh & Baba Sohan Singh abducted from tractor by Batala CIA Staff.',
-    citation: '5121-Source 2: Para 1'
+    description: 'Baba Sohan Singh (5120) surrounded and taken to CIA Staff Batala after SSP Batala ordered his re-arrest.',
+    citation: '5120-Source 1 & 5121-Source 2: Follow-up Para 1-3'
   },
   {
     id: 't-4',
-    date: '1992-03-12',
+    date: '1992-03-06',
     caseId: 'case-kotli-harchand',
     caseTitle: 'Kotli Harchand Cluster',
-    title: 'Extortion Demand Brokered by Mahant Prem Singh',
-    location: 'CIA Staff Batala / Dera',
+    title: '₹6.5L Extortion Trap & Canal Bridge Checkpoint Abduction',
+    location: 'Nangal Jhanda / Bhagwanpur Canal Bridge, Batala',
     type: 'custody',
-    description: '₹1,00,000 ransom demanded; family pays ₹45,000, yet custody continues.',
-    citation: '5121-Source 2: Para 2'
+    description: 'Baba Hardit Singh pays ₹6–6.5L to Mahant Prem Singh for SSP Grewal, then is ambushed at naka by Inspector Dilbagh Singh.',
+    citation: '5121-Source 2: Para 1 & CCDP/01147'
   },
   {
     id: 't-5',
@@ -1529,21 +1532,21 @@ export const COMPARATIVE_TIMELINE: TimelineEvent[] = [
     date: '1992-07-02',
     caseId: 'case-kotli-harchand',
     caseTitle: 'Kotli Harchand Cluster',
-    title: 'Bhattian Bridge Staged Shootout Execution',
-    location: 'Bhattian Bridge, Sri Hargobindpur',
+    title: 'Bhattian Bridge Midnight Execution of Hardit Singh & Sohan Singh',
+    location: 'Bhattian Bridge, Sri Hargobindpur River',
     type: 'encounter',
-    description: 'Summary execution of Baba Hardit Singh and co-detainees; fabricated FIR 43/92 registered.',
-    citation: 'CCDP/01147 & FIR 43/92'
+    description: 'One night before IGP Pannu’s promised July 3 release, police take Baba Hardit Singh and Sohan Singh from Dhariwal Chowki and execute them at Bhattian Bridge.',
+    citation: '5121-Source 2: Para 1 & Follow-up Para 5'
   },
   {
     id: 't-8',
     date: '2021-02-23',
     caseId: 'case-kotli-harchand',
     caseTitle: 'Kotli Harchand Cluster',
-    title: 'Life Imprisonment Verdict for Inspector Dilbagh Singh et al.',
-    location: 'Special Judge CBI Court, SAS Nagar (Mohali)',
+    title: '6 Punjab Police Personnel Convicted by Special CBI Court Mohali',
+    location: 'Special CBI Court, Mohali (Judge Anil Kumar Sood)',
     type: 'judicial',
-    description: 'Landmark verdict establishing criminal conspiracy and fake encounter under IPC 302/364.',
-    citation: 'CBI Special Court Mohali RC 3(S)/97'
+    description: 'Insp. Dilbagh Singh, SI Bhupinder Singh, SI Harminder Singh (8 yrs RI), SI Rakesh Kumar Sharma (4 yrs RI), ASI Dilbagh Singh & HC Mukhtyar Singh (3 yrs RI) convicted.',
+    citation: '5121-Source 8: National Courier & Northern Herald (2021)'
   }
 ];

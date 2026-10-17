@@ -1,6 +1,6 @@
 {
-  "summary": "Revised implementation plan for 'The Dignified Forensic Hybrid' vibe: blending the human-centered, readable editorial warmth of Ensaaf (respectful serif typography, cream archival matting, clear Gurmukhi script) with the high-utility legal forensic workstation from the reference screenshots (left navigation sidebar, 3 top KPI cards, priority docket queue, violation trend donut & district density charts beside the interactive map, default unverified fact status, and synchronized microfiche/audio proof).",
-  "updatedAt": "2026-10-16T21:50:47.741216527Z",
+  "summary": "Revised implementation plan that incorporates renaming the 'Add Dossier' button to 'Upload Case' across the navigation bar, alongside the focused scope items: removing placeholder victim photos, adding manual photo upload with browser persistence, prefixing synthetic case titles with [synthetic-data], and calibrating the Assigned Case Review Queue to the 3 active cases.",
+  "updatedAt": "2026-10-16T23:51:17.326563497Z",
   "requestFeedback": true,
   "userFacing": true
 }

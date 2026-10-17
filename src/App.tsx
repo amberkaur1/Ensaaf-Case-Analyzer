@@ -19,10 +19,12 @@ import { RawEvidenceModal } from './components/RawEvidenceModal';
 import { FactCorrectionModal } from './components/FactCorrectionModal';
 import { CaseUploadModal } from './components/CaseUploadModal';
 import { ActionDraftModal } from './components/ActionDraftModal';
+import { generateTaskForCase } from './services/caseExtractor';
 import { CheckCircle, X } from 'lucide-react';
 
 export default function App() {
   const [cases, setCases] = useState<CaseData[]>(INITIAL_CASES);
+  const [tasks, setTasks] = useState<InvestigativeTask[]>(INVESTIGATIVE_TASKS);
   const [activeCaseId, setActiveCaseId] = useState<string>('case-kotli-harchand');
   const [activeScreen, setActiveScreen] = useState<
     'landing' | 'case_deep_dive' | 'cross_case' | 'source_analysis' | 'trend_detail'
@@ -154,6 +156,8 @@ export default function App() {
   // Add new case from Upload Modal
   const handleCaseAdded = (newCase: CaseData) => {
     setCases((prev) => [newCase, ...prev]);
+    const newTask = generateTaskForCase(newCase);
+    setTasks((prev) => [newTask, ...prev]);
     setActiveCaseId(newCase.id);
     setActiveScreen('case_deep_dive');
     showToast(`New case "${newCase.title.slice(0, 32)}..." added and indexed into evidence network.`);
@@ -182,6 +186,7 @@ export default function App() {
         {activeScreen === 'landing' && (
           <LandingTriageView
             cases={cases}
+            tasks={tasks}
             onSelectCase={(caseId) => {
               setActiveCaseId(caseId);
               setActiveScreen('case_deep_dive');

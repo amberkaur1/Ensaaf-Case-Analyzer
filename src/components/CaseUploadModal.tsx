@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { CaseData } from '../types/evidence';
 import { X, Upload, FileText, CheckCircle2, Loader2, Sparkles, AlertCircle } from 'lucide-react';
+import mammoth from 'mammoth';
+import { extractCaseFromRawFiles, RawUploadedFile } from '../services/caseExtractor';
 
 interface CaseUploadModalProps {
   onClose: () => void;
@@ -11,8 +13,10 @@ export const CaseUploadModal: React.FC<CaseUploadModalProps> = ({ onClose, onCas
   const [title, setTitle] = useState('');
   const [location, setLocation] = useState('Gurdaspur Border Sector, Punjab');
   const [rawText, setRawText] = useState('');
+  const [uploadedFiles, setUploadedFiles] = useState<RawUploadedFile[]>([]);
   const [isProcessing, setIsProcessing] = useState(false);
   const [stepMessage, setStepMessage] = useState('');
+  const [error, setError] = useState<string | null>(null);
 
   const PRESETS = [
     {
@@ -36,60 +40,101 @@ Custody: Jasbir was transported to Kalanaur police station and later to Batala C
   ];
 
   const handleSelectPreset = (p: typeof PRESETS[0]) => {
+    setError(null);
     setTitle(p.title);
     setLocation(p.location);
     setRawText(p.text);
+    setUploadedFiles([{ filename: `${p.title.replace(/[^a-zA-Z0-9]/g, '_')}.txt`, text: p.text }]);
   };
 
-  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = e.target.files;
+    if (!files || files.length === 0) return;
 
-    setTitle(file.name.replace(/\.[^/.]+$/, '').replace(/[-_]/g, ' '));
-    const reader = new FileReader();
-    reader.onload = (event) => {
-      const content = event.target?.result as string;
-      setRawText(content);
-    };
-    reader.readAsText(file);
+    setError(null);
+    const newFiles: RawUploadedFile[] = [];
+
+    try {
+      for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+        if (file.name.toLowerCase().endsWith('.docx')) {
+          const arrayBuffer = await file.arrayBuffer();
+          const mammothResult = await mammoth.extractRawText({ arrayBuffer });
+          newFiles.push({
+            filename: file.name,
+            text: mammothResult.value,
+          });
+        } else {
+          // Read .txt, .md, .json, .csv with UTF-8 to preserve Gurmukhi Punjabi characters
+          const text = await new Promise<string>((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = (event) => resolve((event.target?.result as string) || '');
+            reader.onerror = (err) => reject(err);
+            reader.readAsText(file, 'UTF-8');
+          });
+          newFiles.push({
+            filename: file.name,
+            text,
+          });
+        }
+      }
+
+      setUploadedFiles((prev) => [...prev, ...newFiles]);
+
+      if (!title && newFiles.length > 0) {
+        setTitle(newFiles[0].filename.replace(/\.[^/.]+$/, '').replace(/[-_]/g, ' '));
+      }
+
+      // Populate textarea preview
+      if (newFiles.length === 1) {
+        setRawText(newFiles[0].text);
+      } else if (newFiles.length > 1) {
+        setRawText((prev) => (prev ? prev + '\n\n' : '') + newFiles.map((f) => `--- ${f.filename} ---\n${f.text}`).join('\n\n'));
+      }
+    } catch (err: any) {
+      console.error('File read error:', err);
+      setError(`Failed to read uploaded file(s): ${err?.message || 'Unknown error'}`);
+    }
   };
 
   const handleProcess = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!rawText.trim()) return;
+    setError(null);
+
+    // Determine raw files to pass to extractor
+    let filesToProcess: RawUploadedFile[] = [...uploadedFiles];
+    if (filesToProcess.length === 0) {
+      if (!rawText.trim()) return;
+      filesToProcess = [
+        {
+          filename: `${title ? title.replace(/[^a-zA-Z0-9]/g, '_') : 'case-dossier'}.txt`,
+          text: rawText.trim(),
+        },
+      ];
+    } else if (filesToProcess.length === 1 && rawText.trim() && rawText.trim() !== filesToProcess[0].text) {
+      filesToProcess[0].text = rawText.trim();
+    }
 
     setIsProcessing(true);
-    setStepMessage('Parsing document headers & entity references...');
+    setStepMessage('Reading raw files, resolving entities & anchoring verbatim provenance...');
 
     try {
-      // Step simulation for high-fidelity extraction UX
-      setTimeout(() => setStepMessage('Identifying victims, commanding officers & tout intermediaries...'), 500);
-      setTimeout(() => setStepMessage('Detecting encounter locations & unrecorded detention sites...'), 1100);
-      setTimeout(() => setStepMessage('Generating cryptographically linked DAG entity nodes...'), 1600);
+      const extractedCase = await extractCaseFromRawFiles(filesToProcess);
 
-      // Call extraction endpoint
-      const res = await fetch('/api/extract-entities', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          text: rawText,
-          title: title || 'Extracted Disappearance Dossier',
-          location: location || 'Punjab Border Belt',
-        }),
-      });
-
-      if (!res.ok) {
-        throw new Error('Extraction failed');
+      // Preserve any manual user override of title or location
+      if (title.trim()) {
+        extractedCase.title = title.trim();
+      }
+      if (location.trim() && (!extractedCase.primaryLocation || extractedCase.primaryLocation === 'Not stated in source documents')) {
+        extractedCase.primaryLocation = location.trim();
       }
 
-      const data = await res.json();
-      setTimeout(() => {
-        setIsProcessing(false);
-        onCaseAdded(data.case);
-        onClose();
-      }, 2000);
-    } catch (err) {
-      console.error(err);
+      onCaseAdded(extractedCase);
+      onClose();
+    } catch (err: any) {
+      console.error('Extraction error:', err);
+      setError(err?.message || 'Extraction failed. Please verify source documents and try again.');
+    } finally {
       setIsProcessing(false);
     }
   };
@@ -179,15 +224,30 @@ Custody: Jasbir was transported to Kalanaur police station and later to Batala C
                 </label>
                 <label className="cursor-pointer text-xs text-amber-700 hover:text-amber-800 font-semibold flex items-center gap-1">
                   <FileText className="w-3.5 h-3.5" />
-                  <span>Choose .txt / .md / .json</span>
+                  <span>Choose .txt / .md / .json / .docx</span>
                   <input
                     type="file"
-                    accept=".txt,.md,.json,.csv"
+                    accept=".txt,.md,.json,.csv,.docx"
+                    multiple
                     onChange={handleFileUpload}
                     className="hidden"
                   />
                 </label>
               </div>
+
+              {uploadedFiles.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 mb-2">
+                  {uploadedFiles.map((f, i) => (
+                    <span
+                      key={i}
+                      className="px-2 py-0.5 bg-slate-100 text-slate-700 text-[11px] font-mono rounded border border-slate-200 flex items-center gap-1"
+                    >
+                      <FileText className="w-3 h-3 text-amber-600" />
+                      {f.filename}
+                    </span>
+                  ))}
+                </div>
+              )}
 
               <textarea
                 rows={7}
@@ -198,6 +258,16 @@ Custody: Jasbir was transported to Kalanaur police station and later to Batala C
                 required
               />
             </div>
+
+            {error && (
+              <div className="p-3 bg-rose-50 border border-rose-200 rounded-lg flex items-start gap-2 text-xs text-rose-800">
+                <AlertCircle className="w-4 h-4 text-rose-600 shrink-0 mt-0.5" />
+                <div className="flex-1">
+                  <span className="font-semibold block">Extraction Notice:</span>
+                  <span>{error}</span>
+                </div>
+              </div>
+            )}
 
             {isProcessing && (
               <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg space-y-2 animate-pulse">
